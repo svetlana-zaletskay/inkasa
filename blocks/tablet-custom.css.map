@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iCAAkC;EAChC,MAAO;IACL,OAAO,EAAE,KAAK;IACd,gBAAU;MACR,OAAO,EAAE,kBAAkB;IAE7B,iBAAW;MACT,OAAO,EAAE,IAAI;IAEf,sBAAgB;MACd,OAAO,EAAE,kBAAkB;;EAI7B,oCAAwB;IACtB,OAAO,EAAE,YAAY;IACrB,KAAK,EAAE,GAAG",
+"sources": ["tablet-custom.scss"],
+"names": [],
+"file": "tablet-custom.css"
+}

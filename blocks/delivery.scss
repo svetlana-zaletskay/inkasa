@@ -1,0 +1,38 @@
+
+.delivery {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  //margin: 0 auto;
+  min-height: 30px;
+  //position: relative;
+  line-height: 2;
+
+  .content-delivery {
+    vertical-align: middle;
+    display: inline-block;
+    //position: absolute;
+    //top:50%;
+    //transform: translate(-50%,-50%);
+
+  }
+  .text-delivery {
+    color: #f8c301;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: arvoregular, sans-serif;
+    letter-spacing: 2px;
+
+  }
+  .text-delivery:before {
+    content: url("../images/car-delivery.png");
+    position: absolute;
+    top: 11%;
+    left: -13%;
+  }
+  .text-delivery:after {
+    content:'*';
+    color: #fff;
+
+  }
+}

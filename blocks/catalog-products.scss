@@ -1,0 +1,85 @@
+.catalog-products {
+
+  .sofa {
+    min-height: 192px;
+  }
+  .cadeira {
+    min-height: 192px;
+  }
+}
+
+.products {
+  margin: 0 auto;
+
+  .row {
+    margin-top: 36px;
+
+    .col-products {
+       .img-product {
+         max-width: 100%;
+         height: auto;
+         display: block;
+      }
+      .label {
+        font-family: 'arvobold';
+        font-size: 20px;
+        color: #000;
+        position: absolute;
+        top: 6%;
+        right: 5%;
+      }
+      .label:before {
+        content: "[";
+        font-family: 'arvobold';
+        font-size: 20px;
+        color: #f8c301;
+      }
+      .label:after {
+        content: "]";
+        font-family: 'arvobold';
+        font-size: 20px;
+        color: #f8c301;
+      }
+
+      .block-front {
+        z-index: 1001;
+        background-color: #ebb901;
+        transition: all 0.4s ease-in-out 0s;
+        opacity: 0;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        width: 92.5%;
+        height: 100%;
+        top: 0;
+        text-align: center;
+
+        .ver-mais {
+          color: #000;
+          font-family: 'arvobold_italic', sans-serif;
+          font-size: 21px;
+          text-decoration: none;
+          position: absolute;
+          top: 40%;
+          left: 26%;
+        }
+        .ver-mais:after {
+          content: "]";
+          font-family: 'arvobold';
+          font-size: 20px;
+          color: #ffffff;
+        }
+        .ver-mais:before {
+          content: "[";
+          font-family: 'arvobold';
+          font-size: 20px;
+          color: #ffffff;
+        }
+      }
+      .block-front:hover {
+        opacity: 0.8;
+      }
+
+    }
+  }
+}

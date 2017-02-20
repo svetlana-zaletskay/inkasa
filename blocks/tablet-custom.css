@@ -1,0 +1,15 @@
+@media all and (max-width: 768px) {
+  header {
+    display: table; }
+    header .delivery {
+      display: table-footer-group; }
+    header .btn-group {
+      display: none; }
+    header .header-content {
+      display: table-header-group; }
+
+  .body .products, .body .banner-rooms {
+    display: inline-block;
+    width: 48%; } }
+
+/*# sourceMappingURL=tablet-custom.css.map */

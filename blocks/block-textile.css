@@ -1,0 +1,64 @@
+div.row-textile {
+  margin-top: 36px; }
+  div.row-textile .col-textile {
+    position: relative; }
+    div.row-textile .col-textile .img-textile {
+      width: 100%;
+      height: auto; }
+    div.row-textile .col-textile .h-top-textile {
+      font-family: 'arvobold', sans-serif;
+      font-size: 30px;
+      color: #000;
+      background-color: #fff;
+      position: absolute;
+      top: 14%;
+      left: 10%;
+      height: 6.8%;
+      line-height: 1;
+      width: 44%;
+      text-align: center; }
+    div.row-textile .col-textile .h-top-textile:before {
+      content: url("../images/b-l-banner-rooms.png");
+      position: absolute;
+      left: -1.5%;
+      top: -3%; }
+    div.row-textile .col-textile .bracket-none:before {
+      content: ""; }
+    div.row-textile .col-textile div.block-width {
+      width: 39%;
+      right: 12%; }
+    div.row-textile .col-textile .h-center-textile {
+      top: 24%;
+      left: 3%;
+      width: 51%;
+      text-align: right; }
+    div.row-textile .col-textile .h-center-textile:after {
+      content: url("../images/b-r-banner-room.png");
+      position: absolute;
+      left: 95%; }
+    div.row-textile .col-textile .h-bottom-textile {
+      font-family: arvoitalic;
+      font-size: 20px;
+      background-color: #f8c301;
+      position: absolute;
+      bottom: 55%;
+      left: 10%;
+      text-align: center;
+      height: 5.5%;
+      line-height: 1;
+      width: 26%; }
+      div.row-textile .col-textile .h-bottom-textile a {
+        color: #000;
+        text-decoration: none; }
+    div.row-textile .col-textile .h-bottom-textile:before {
+      content: url("../images/b-r-w.png");
+      position: absolute;
+      top: -16%;
+      left: 0%; }
+    div.row-textile .col-textile .h-bottom-textile:after {
+      content: url("../images/b-l-w.png");
+      position: absolute;
+      top: -16%;
+      left: 92%; }
+
+/*# sourceMappingURL=block-textile.css.map */
