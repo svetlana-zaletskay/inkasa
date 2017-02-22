@@ -1,20 +1,158 @@
-@media all and (max-width: 768px) {
+
+@media(min-width: 320px) {
   header {
     display: table;
+    width: 100%;
+    .content-delivery {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      .text-delivery {
+        padding-left: 7%;
+      }
+      .text-delivery:before {
+        .text-delivery {
+          padding-left: 7%;
+
+        }
+      }
+      .text-delivery:before {
+        position: absolute;
+        top: 24%;
+        left: 2%;
+      }
+    }
+  }
+  .btn-group {
+    display: none;
+  }
+  .header-content {
+    display: table-header-group;
+    .menu-button {
+      display: inline-block;
+      float: left;
+      .icon-bar {
+        background-color: #000000;
+      }
+    }
+    .search {
+      display: none;
+    }
+    .basket-elements {
+      display: none;
+    }
+    .conteiner-logo {
+      text-align: center;
+    }
+    img {
+      height: 46px;
+      width: 155px;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  header {
+    display: table;
+    width: 100%;
     .delivery {
       display: table-footer-group;
+      .content-delivery {
+        width: 100%;
+        text-align: left;
+        .text-delivery {
+          padding-left: 6%;
+        }
+        .text-delivery:before {
+          position: absolute;
+          top: 24%;
+          left: 4%;
+        }
+      }
     }
     .btn-group {
       display: none;
     }
     .header-content {
       display: table-header-group;
+      .navbar-header {
+        .menu-button {
+          display: inline-block;
+          .icon-bar {
+            background-color: #000000;
+          }
+        }
+      }
+      .conteiner-logo {
+        text-align: center;
+      }
+      .search {
+        display: none;
+      }
+      .basket-elements {
+        display: none;
+      }
+    }
+    img {
+      height: 39px;
+      width: 155px;
     }
   }
-  .body{
-    .products, .banner-rooms{
-      display: inline-block;
-      width: 48%;
+}
+
+@media(min-width: 992px) {
+  header {
+    display: block;
+    width: 100%;
+    .delivery {
+      display: block;
+      width: 100%;
+      text-align: center;
+      min-height: 30px;
+      line-height: 2;
+      .content-delivery {
+        vertical-align: middle;
+        display: inline-block;
+        text-align: center;
+        .text-delivery {
+          padding-left: 7%;
+        }
+        .text-delivery:before {
+          position: absolute;
+          top: 4%;
+          left: 42.5%;
+        }
+      }
+    }
+    .btn-group {
+      display: block;
+    }
+    .header-content {
+      min-height: 82px;
+      position: relative;
+      .navbar-header {
+        display: block;
+        .menu-button {
+          display: none;
+          .icon-bar {
+            background-color: #000000;
+          }
+        }
+      }
+      .search {
+        display: block;
+      }
+      .basket-elements {
+        display: inline-block;
+      }
+      .conteiner-logo {
+        text-align: left;
+
+        logo-img {
+          height: 15px;
+          width: 20px;
+        }
+      }
     }
   }
 }

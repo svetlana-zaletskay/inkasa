@@ -1,7 +1,7 @@
 .header-content {
   min-height: 82px;
   position: relative; }
-  .header-content .logo-img {
+  .header-content .conteiner-logo {
     padding-top: 0.5%; }
   .header-content .search {
     position: absolute;

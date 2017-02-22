@@ -18,6 +18,7 @@ footer {
       margin: 0 1% 0 1.2%;
     }
     .col-display {
+      vertical-align: top;
       display: inline-block;
     }
     .col-footer-1-2 {
@@ -36,14 +37,27 @@ footer {
     }
   }
   .col-footer-3 {
-    width: 17%;
-    margin-right: 4%;
-    .sprites-formas:after {
+    width: 20.5%;
+    margin-right: 1%;
+    //.icon-visa{
+    //  background: url('../images/sprite-5el.png') no-repeat -1px -9px;
+    //  width: 48px;
+    //  height: 15px;
+    //  display: inline-block;
+    //}
+    //.icon-master{
+    //  background: url('../images/sprite-5el.png') no-repeat -63px -2px;
+    //  width: 52px;
+    //  height: 31px;
+    //  display: inline-block;
+    //}
+
+    .sprites-5el:after {
       width: 48px;
       height: 28px;
       background-position: 0 0;
     }
-    .sprites-formas ul {
+    .sprites-5el ul {
       display: inline-block;
       margin-top: 4%;
       li {
@@ -69,27 +83,27 @@ footer {
           height: 100%;
           vertical-align: middle;
         }
-        .visa:after {
+        .icon-visa:after {
           width: 48px;
           height: 28px;
           background-position: 0 0;
         }
-        .master:after {
+        .icon-master:after {
           width: 53px;
           height: 34px;
           background-position: -72px 0;
         }
-        .diners:after {
+        .icon-diners:after {
           width: 51px;
           height: 37px;
           background-position: -141px 0;
         }
-        .amex:after {
+        .icon-amex:after {
           width: 48px;
           height: 44px;
           background-position: 4px -44px;
         }
-        .boleto:after {
+        .icon-boleto:after {
           width: 54px;
           height: 32px;
           background-position: -66px -53px;
@@ -98,61 +112,33 @@ footer {
     }
   }
   .col-footer-4 {
-    width: 16%;
-    margin: 0 1% 0 1%;
-    .sprites-seguran ul {
+    width: 21%;
+    margin: 0 0.3% 0 1%;
+    .icon-ebit {
+      width: 83px;
+      height: 89px;
+      background-position: 0 100%;
+      background-image: url("../images/sprite-2el.png");
+      background-size: 259.03%, 117.97%;
       display: inline-block;
-      margin: -4%;
-      li {
-        width: 90px;
-        display: inline-block;
-        a {
-          width: 88px;
-          height: 105px;
-          display: block;
-          background-color: #fff;
-          position: relative;
-        }
-        a:after {
-          background-image: url('../images/sprite-2.png');
-          content: '';
-          display: inline-block;
-          vertical-align: middle;
-        }
-        a:before {
-          content: '';
-          display: inline-block;
-          //height: 100%;
-          //vertical-align: middle;
-        }
-        .sprites-seguran:after {
-          width: 53px;
-          height: 34px;
-          background-position: -72px 0;
-        }
-        .e-bit:after {
-          width: 99px;
-          height: 105px;
-          background-position: 2px -6px;
-          position: absolute;
-          top: 9%;
-          left: 10%;
-        }
-        .f-control:after {
-          width: 115px;
-          height: 90px;
-          background-position: -95px 0px;
-          position: absolute;
-        }
-      }
+      margin-top: 3%;
+    }
+    .icon-fcontrol {
+      width: 112px;
+      height: 105px;
+      background: url("../images/sprite-2el.png");
+      background-position: 97.08% 100%;
+      background-size: 191.96% 100%;
+      margin-top: 3%;
+      display: inline-block;
     }
   }
 
   div.col-footer-5 {
-    width: 22.3%;
+    width: 21.5%;
     text-align: center;
     background-color: #f6f6f6;
-    margin-left: 4.2%;
+    margin-left: 0.2%;
     position: relative;
     .form-check-in {
       .form-text {
@@ -165,7 +151,7 @@ footer {
         position: relative;
       }
       .check-input {
-        width: 82%;
+        width: 80%;
         margin-bottom: 7%;
         padding: 3% 0 3% 3%;
         font-family: "MLI", sans-serif;
@@ -200,7 +186,7 @@ footer {
       .footer-button {
         background-color: #f8c301;
         border: none;
-        width: 82.3%;
+        width: 82%;
         height: 32px;
         margin-bottom: 23px;
         //padding: 0 26% 0 25.7%;
@@ -210,7 +196,7 @@ footer {
         position: absolute;
         top: 77.5%;
         height: 14%;
-        left: 8%;
+        left: 8.3%;
       }
       .footer-button-b-r {
         position: absolute;
@@ -221,4 +207,3 @@ footer {
     }
   }
 }
-

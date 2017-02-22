@@ -16,6 +16,7 @@ footer {
     footer .footer div.margin-r {
       margin: 0 1% 0 1.2%; }
     footer .footer .col-display {
+      vertical-align: top;
       display: inline-block; }
     footer .footer .col-footer-1-2 {
       width: 15%;
@@ -27,99 +28,79 @@ footer {
         font-size: 13px;
         padding-top: 3.1%; }
   footer .col-footer-3 {
-    width: 17%;
-    margin-right: 4%; }
-    footer .col-footer-3 .sprites-formas:after {
+    width: 20.5%;
+    margin-right: 1%; }
+    footer .col-footer-3 .sprites-5el:after {
       width: 48px;
       height: 28px;
       background-position: 0 0; }
-    footer .col-footer-3 .sprites-formas ul {
+    footer .col-footer-3 .sprites-5el ul {
       display: inline-block;
       margin-top: 4%; }
-      footer .col-footer-3 .sprites-formas ul li {
+      footer .col-footer-3 .sprites-5el ul li {
         width: 65px;
         display: inline-block;
         margin-top: 3%; }
-        footer .col-footer-3 .sprites-formas ul li a {
+        footer .col-footer-3 .sprites-5el ul li a {
           width: 55px;
           height: 51px;
           display: block;
           background-color: #fff;
           text-align: center; }
-        footer .col-footer-3 .sprites-formas ul li a:after {
+        footer .col-footer-3 .sprites-5el ul li a:after {
           background-image: url("../images/sprite.png");
           content: '';
           display: inline-block;
           vertical-align: middle; }
-        footer .col-footer-3 .sprites-formas ul li a:before {
+        footer .col-footer-3 .sprites-5el ul li a:before {
           content: '';
           display: inline-block;
           height: 100%;
           vertical-align: middle; }
-        footer .col-footer-3 .sprites-formas ul li .visa:after {
+        footer .col-footer-3 .sprites-5el ul li .icon-visa:after {
           width: 48px;
           height: 28px;
           background-position: 0 0; }
-        footer .col-footer-3 .sprites-formas ul li .master:after {
+        footer .col-footer-3 .sprites-5el ul li .icon-master:after {
           width: 53px;
           height: 34px;
           background-position: -72px 0; }
-        footer .col-footer-3 .sprites-formas ul li .diners:after {
+        footer .col-footer-3 .sprites-5el ul li .icon-diners:after {
           width: 51px;
           height: 37px;
           background-position: -141px 0; }
-        footer .col-footer-3 .sprites-formas ul li .amex:after {
+        footer .col-footer-3 .sprites-5el ul li .icon-amex:after {
           width: 48px;
           height: 44px;
           background-position: 4px -44px; }
-        footer .col-footer-3 .sprites-formas ul li .boleto:after {
+        footer .col-footer-3 .sprites-5el ul li .icon-boleto:after {
           width: 54px;
           height: 32px;
           background-position: -66px -53px; }
   footer .col-footer-4 {
-    width: 16%;
-    margin: 0 1% 0 1%; }
-    footer .col-footer-4 .sprites-seguran ul {
+    width: 21%;
+    margin: 0 0.3% 0 1%; }
+    footer .col-footer-4 .icon-ebit {
+      width: 83px;
+      height: 89px;
+      background-position: 0 100%;
+      background-image: url("../images/sprite-2el.png");
+      background-size: 259.03%, 117.97%;
       display: inline-block;
-      margin: -4%; }
-      footer .col-footer-4 .sprites-seguran ul li {
-        width: 90px;
-        display: inline-block; }
-        footer .col-footer-4 .sprites-seguran ul li a {
-          width: 88px;
-          height: 105px;
-          display: block;
-          background-color: #fff;
-          position: relative; }
-        footer .col-footer-4 .sprites-seguran ul li a:after {
-          background-image: url("../images/sprite-2.png");
-          content: '';
-          display: inline-block;
-          vertical-align: middle; }
-        footer .col-footer-4 .sprites-seguran ul li a:before {
-          content: '';
-          display: inline-block; }
-        footer .col-footer-4 .sprites-seguran ul li .sprites-seguran:after {
-          width: 53px;
-          height: 34px;
-          background-position: -72px 0; }
-        footer .col-footer-4 .sprites-seguran ul li .e-bit:after {
-          width: 99px;
-          height: 105px;
-          background-position: 2px -6px;
-          position: absolute;
-          top: 9%;
-          left: 10%; }
-        footer .col-footer-4 .sprites-seguran ul li .f-control:after {
-          width: 115px;
-          height: 90px;
-          background-position: -95px 0px;
-          position: absolute; }
+      margin-top: 3%; }
+    footer .col-footer-4 .icon-fcontrol {
+      width: 112px;
+      height: 105px;
+      background: url("../images/sprite-2el.png");
+      background-position: 97.08% 100%;
+      background-size: 191.96% 100%;
+      margin-top: 3%;
+      display: inline-block; }
   footer div.col-footer-5 {
-    width: 22.3%;
+    width: 21.5%;
     text-align: center;
     background-color: #f6f6f6;
-    margin-left: 4.2%;
+    margin-left: 0.2%;
     position: relative; }
     footer div.col-footer-5 .form-check-in .form-text {
       font-family: "MR", sans-serif;
@@ -129,7 +110,7 @@ footer {
     footer div.col-footer-5 .form-check-in .input-position {
       position: relative; }
     footer div.col-footer-5 .form-check-in .check-input {
-      width: 82%;
+      width: 80%;
       margin-bottom: 7%;
       padding: 3% 0 3% 3%;
       font-family: "MLI", sans-serif;
@@ -159,14 +140,14 @@ footer {
     footer div.col-footer-5 .form-check-in .footer-button {
       background-color: #f8c301;
       border: none;
-      width: 82.3%;
+      width: 82%;
       height: 32px;
       margin-bottom: 23px; }
     footer div.col-footer-5 .form-check-in .footer-button-b-l {
       position: absolute;
       top: 77.5%;
       height: 14%;
-      left: 8%; }
+      left: 8.3%; }
     footer div.col-footer-5 .form-check-in .footer-button-b-r {
       position: absolute;
       top: 77.5%;
