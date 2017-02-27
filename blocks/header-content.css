@@ -3,6 +3,11 @@
   position: relative; }
   .header-content .conteiner-logo {
     padding-top: 0.5%; }
+  .header-content .search-basket-div {
+    margin-left: -4%;
+    text-align: right; }
+    .header-content .search-basket-div .search-img-xs-sm {
+      margin: 6% 8% 0 0; }
   .header-content .search {
     position: absolute;
     top: 2%;
