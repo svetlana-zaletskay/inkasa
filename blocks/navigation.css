@@ -16,14 +16,6 @@
       margin-left: 3%;
       line-height: 2;
       word-spacing: 5px; }
-    .btn-group .navigation .link-3:before {
-      content: "&";
-      color: #fff;
-      right: 46%;
-      font-size: 15px;
-      left: 40.5%;
-      top: 6%;
-      position: absolute; }
     .btn-group .navigation span .el-link:active {
       content: '';
       width: 50px;
