@@ -5,25 +5,18 @@
     background-color: #f8c301;
     min-height: 36px;
     text-align: center;
-    display: inline-block;
-    width: 88.6%; }
+    display: inline-block; }
+    .btn-group .navigation .link-padding {
+      padding-left: 14% !important; }
     .btn-group .navigation .link-1, .btn-group .navigation .link-2, .btn-group .navigation .link-3, .btn-group .navigation .link-4 {
       text-decoration: none;
       display: inline-block;
       color: #000;
-      font-size: 17px;
+      font-size: 16px;
       font-family: MEB, sans-serif;
-      margin-left: 3%;
-      line-height: 2;
-      word-spacing: 5px; }
-    .btn-group .navigation .link-3:before {
-      content: "&";
-      color: #fff;
-      right: 46%;
-      font-size: 15px;
-      left: 40.5%;
-      top: 6%;
-      position: absolute; }
+      word-spacing: 5px;
+      padding-top: 1%;
+      padding-left: 5%; }
     .btn-group .navigation span .el-link:active {
       content: '';
       width: 50px;
@@ -84,13 +77,10 @@
           width: 226px;
           padding-left: 4%; }
   .btn-group .ofertas-block {
-    width: 11.4%;
-    min-height: 36px;
     background-color: black;
     display: inline-block;
     text-align: center;
-    padding: 6px;
-    position: absolute; }
+    padding: 6px; }
     .btn-group .ofertas-block .ofertas {
       text-align: center;
       text-decoration: none;

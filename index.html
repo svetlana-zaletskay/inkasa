@@ -15,7 +15,7 @@
 </head>
 <!--<header>-->
 <div class="wrapper">
-    <div class="container-fluid">
+    <div class="container-fluid container-my">
         <!--<div class="row">-->
         <!--<div class="col-md-12 col-sm-6" style="background-color: pink;">-->
         <!--<div class="col-md-2 col-sm-6" style="background-color: yellow;"> <span>1111</span></div>-->
@@ -47,7 +47,6 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
                     <div class="collapse navbar-collapse link-mobile-menu" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Link</a></li>
@@ -55,34 +54,26 @@
                         </ul>
                     </div>
                 </div>
-                <div class="conteiner-logo col-xs-7 col-sm-10">
+                <div class="conteiner-logo col-xs-7 col-sm-10 col-md-6">
                     <img class="logo-img" src="images/logo.png" alt="logo">
                 </div>
-                <form action="#" class="search">
+                <form action="#" class="search col-md-3">
                     <img class="search-bracket-l" src="images/bracket-left.png" alt="">
                     <input class="search-content" type="text" placeholder="digite aqui o que procura"/>
                     <img class="search-img" src="images/searsch.png" alt="searsch">
                     <img class="search-bracket-r" src="images/bracket-right.png" alt="">
-                    <span class="my-score">MINHA CONTA</span>
                 </form>
-                <div class="basket-elements">
-                    <div class="img-container-1">
-                        <img class="el-1" src="images/basket.png" alt="basket">
-                    </div>
-                    <div class="img-container-2">
-                        <img class="el-2" src="images/88.png" alt="88">
-                    </div>
-                </div>
+                <div class="my-score col-md-2">MINHA CONTA</div>
+                <img class="basket-home col-md-2" src="images/basket-home.png">
                 <div class="search-basket-div col-xs-3  col-sm-1">
-                    <img class="search-img-xs-sm" src="images/searsch.png" alt="search">
-                    <img class="basket-img-xs-sm" src="images/basket-mobile.png" alt="basket">
+                    <img class="search-img-xs-sm" src="images/searsch.png">
+                    <img class="basket-img-xs-sm" src="images/basket-mobile.png">
                 </div>
             </div>
 
-
-            <div class="btn-group">
-                <nav class="navigation">
-                    <a class="link-1" data-toggle="dropdown" href="#">móveis</a>
+            <div class="btn-group row">
+                <nav class="navigation col-md-10">
+                    <a class="link-1 link-padding" data-toggle="dropdown" href="#">móveis</a>
                     <span class="el-link"></span>
                     <ul class="dropdown-menu">
                         <li class="dropdown-col-1">
@@ -175,7 +166,7 @@
                         </li>
                     </ul>
 
-                    <a class="link-3" data-toggle="dropdown" href="#">acessórios decoração</a>
+                    <a class="link-3" data-toggle="dropdown" href="#"><span>acessórios</span><span style="color: #fff;">&#38</span><span>decoração</span></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-col-1">
                             <ul class="dropdown-list">
@@ -265,7 +256,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="ofertas-block">
+                <div class="ofertas-block col-md-2">
                     <a class="ofertas" href="#">ofertas</a>
                 </div>
             </div>
@@ -359,62 +350,110 @@
                 </div>
             </div>
         </div>
+
+        <!--FOOTER-->
+
         <footer>
             <div class="footer">
-                <div class="col-display col-footer-1-2 margin-r">
-                    <div class="list-1-2">sobre a InKasa
-                        <div class="el el-padding">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                    </div>
-                </div>
-                <div class="col-display col-footer-1-2">
-                    <div class="list-1-2">políticas
-                        <div class="el el-padding">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                        <div class="el">Lorem Ipsum</div>
-                    </div>
-                </div>
-                <div class="col-display col-footer-3">
-                    <div class="sprites-5el">
-                        <div>formas de pagamento</div>
-                        <ul>
-                            <li><a class="icon-visa" href="#"></a></li>
-                            <li><a class="icon-master" href="#"></a></li>
-                            <li><a class="icon-diners" href="#"></a></li>
-                            <li><a class="icon-amex" href="#"></a></li>
-                            <li><a class="icon-boleto" href="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-display col-footer-4">
-                    <div>segurança</div>
-                    <div class="icon-ebit"></div>
-                    <div class="icon-fcontrol"></div>
-                </div>
-                <div class="col-display col-footer-5">
-                    <form class="form-check-in" action="#">newsletter
-                        <div class="form-text">cadastre-se e receba as últimas
-                        novidades em seu email
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default panel-accordion">
+                        <div class="panel-heading panel-heading-bg">
+                            <h4 class="panel-title">
+                                <a class="text-accordion-left" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseOne">sobre a InKasa</a>
+                                <a class="text-accordion-right" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseOne">+</a>
+                            </h4>
                         </div>
-                        <img class="form-name-bracket-l" src="images/bracket-left.png" alt=""/>
-                        <input class="check-input input-position" type="name" name="name" placeholder="name"/>
-                        <img class="form-name-bracket-r" src="images/bracket-right.png" alt=""/>
-                        <img class="form-e-mail-bracket-l" src="images/bracket-left.png" alt=""/>
-                        <input class="check-input" type="text" name="email" placeholder="e-mail"/>
-                        <img class="form-e-mail-bracket-r" src="images/bracket-right.png" alt=""/>
-                        <img class="footer-button-b-l" src="images/button-bracket-left.png">
-                        <button class="footer-button" type="button" class="submit">cadastrar</button>
-                        <img class="footer-button-b-r" src="images/button-bracket-right.png">
-                    </form>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body list-accordion">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default panel-accordion">
+                        <div class="panel-heading panel-heading-bg">
+                            <h4 class="panel-title">
+                                <a class="text-accordion-left" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseTwo">políticas</a>
+                                <a class="text-accordion-right" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseTwo">+</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse in">
+                            <div class="panel-body list-accordion">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-1-2-3-4-5">
+                    <div class="col-display col-footer-1-2 margin-r">
+                        <div class="list-1-2">sobre a InKasa
+                            <div class="el el-padding">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                    <div class="col-display col-footer-1-2">
+                        <div class="list-1-2">políticas
+                            <div class="el el-padding">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                            <div class="el">Lorem Ipsum</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 blocks-sprites">
+                        <div class="col-xs-12 col-sm-6 col-footer-3">
+                            <div class="sprites-5el">
+                                <div class="text-formas">formas de pagamento</div>
+                                <div class="sprites-div">
+                                    <div class="icon visa"></div>
+                                    <div class="icon visa-tablet-home"></div>
+                                    <div class="icon master"></div>
+                                    <div class="icon diners"></div>
+                                    <div class="icon express"></div>
+                                    <div class="icon hipercard"></div>
+                                    <div class="icon elo"></div>
+                                    <div class="icon boleto"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-footer-4">
+                            <div class="text-formas">segurança</div>
+                            <div class="icon-ebit"></div>
+                            <div class="icon-fcontrol"></div>
+                        </div>
+                        <div class="col-sm-8 text-after-sprites">
+                            <span>Inkasa - Seg. a Sex. das 8:00 as 18:00
+                    Av. Guilherme Dumont Villares, 839
+                    Morumbi - São Paulo/SP - (11) 3740-0940</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-forma">
+                        <div class="col-xs-12 col-sm-12 col-footer-5">
+                            <form class="form-check-in" action="#">newsletter
+                                <div class="form-text">cadastre-se e receba as últimas
+                                    novidades em seu email
+                                </div>
+                                <img class="form-name-bracket-l" src="images/bracket-left.png" alt=""/>
+                                <input class="check-input input-position" type="name" name="name" placeholder="name"/>
+                                <img class="form-name-bracket-r" src="images/bracket-right.png" alt=""/>
+                                <img class="form-e-mail-bracket-l" src="images/bracket-left.png" alt=""/>
+                                <input class="check-input" type="text" name="email" placeholder="e-mail"/>
+                                <img class="form-e-mail-bracket-r" src="images/bracket-right.png" alt=""/>
+                                <img class="footer-button-b-l" src="images/button-bracket-left.png">
+                                <button class="submit footer-button" type="button">cadastrar</button>
+                                <img class="footer-button-b-r" src="images/button-bracket-right.png">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 after-footer">
+                    <a href="#"><img class="group" src="images/group.png" alt=""/></a>
                 </div>
             </div>
         </footer>

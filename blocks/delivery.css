@@ -16,8 +16,8 @@
   .delivery .text-delivery:before {
     content: url("../images/car-delivery.png");
     position: absolute;
-    top: 11%;
-    left: -13%; }
+    top: 31%;
+    left: 38%; }
   .delivery .text-delivery:after {
     content: '*';
     color: #fff; }
