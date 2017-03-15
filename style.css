@@ -7,9 +7,9 @@
 @import "blocks/banner-rooms.css";
 @import "blocks/block-textile.css";
 @import "blocks/footer.css";
-@import "blocks/mobile-custom.scss";
+@import "blocks/mobile-custom.css";
 @import "blocks/tablet-custom.css";
-@import "blocks/desktop-custom.scss";
+@import "blocks/desktop-custom.css";
 @import "blocks/home.css";
 
 @import "fonts/Arvo/stylesheet.css";

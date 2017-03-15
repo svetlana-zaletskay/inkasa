@@ -1,3 +1,118 @@
+@media (min-width: 992px) {
+  header {
+    display: block;
+    width: 100%; }
+    header .delivery {
+      display: block;
+      width: 100%;
+      text-align: center;
+      min-height: 30px;
+      line-height: 2; }
+      header .delivery .content-delivery {
+        vertical-align: middle;
+        display: inline-block;
+        text-align: center; }
+        header .delivery .content-delivery .text-delivery {
+          padding-left: 0%; }
+        header .delivery .content-delivery .text-delivery:before {
+          position: absolute;
+          top: 28%;
+          left: 38.3%; }
+    header .btn-group {
+      display: block;
+      width: 100%;
+      margin: 0 auto; }
+      header .btn-group .ofertas-block {
+        width: 11%; }
+      header .btn-group .navigation {
+        width: 89%; }
+    header .header-content {
+      position: relative;
+      display: block; }
+      header .header-content .navbar-header {
+        display: none; }
+      header .header-content .conteiner-logo {
+        text-align: left;
+        text-align: left;
+        padding: 0.2% 3%; }
+        header .header-content .conteiner-logo .logo-img {
+          height: 67px;
+          width: 247px; }
+      header .header-content .search-basket-div {
+        display: none; }
+      header .header-content .basket-home {
+        width: 13%;
+        height: 79px;
+        display: block; }
+      header .header-content .my-score {
+        display: inline-block;
+        width: 10%; }
+      header .header-content .link-mobile-menu {
+        display: none !important; }
+      header .header-content .menu-button {
+        display: none; }
+        header .header-content .menu-button .icon-bar {
+          background-color: #000000; }
+      header .header-content .search {
+        display: block;
+        width: 24%;
+        margin-left: 2%; }
+      header .header-content .basket-elements {
+        display: inline-block; }
 
+  body .row {
+    margin-left: 0%; }
+    body .row .banner-block {
+      background: url(../images/main-banner.png) no-repeat center;
+      min-height: 394px;
+      text-align: right; }
+    body .row .products {
+      padding-top: 23px; }
+      body .row .products .row .col-products .product {
+        background-size: contain; }
+
+  footer .footer .col-footer-1-2 {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 0px; }
+  footer .footer .panel-group {
+    display: none; }
+  footer .footer .col-footer-3 .visa-tablet-home {
+    display: inline-block; }
+  footer .footer .col-footer-3 .visa {
+    display: none; } }
+@media (max-width: 992px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-left, .navbar-right {
+    float: none !important; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    margin-top: 7.5px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .collapse.in {
+    display: block !important; } }
 
 /*# sourceMappingURL=desktop-custom.css.map */
