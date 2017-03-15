@@ -1,91 +1,72 @@
-.banner-rooms div.banner-rooms-row {
-  margin-top: 36px; }
-  .banner-rooms div.banner-rooms-row div.banner-rooms-column {
+.banner-rooms .banner-rooms-row .banner-rooms-column {
+  position: relative; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .bg-kitchen {
+    background: url(../images/kitchen-room.png) no-repeat -113px 0px;
+    background-size: cover;
+    min-height: 296px;
     position: relative; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .img-room {
-      width: 100%;
-      height: auto; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-top-room {
-      font-family: 'arvobold';
-      font-size: 30px;
-      color: #000;
-      position: absolute;
-      top: 23%;
-      right: 0;
-      background-color: #fff;
-      width: 37%;
-      height: 10%;
-      line-height: 1;
-      opacity: 1; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-top-room:before {
-      content: url("../images/b-l-banner-rooms.png");
-      position: absolute;
-      top: -1%;
-      right: 96%; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-center-room:after {
-      content: url("../images/b-r-banner-room.png");
-      position: absolute;
-      top: -1%;
-      right: -3%; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-center-room:before {
-      content: "";
-      position: absolute; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-center-room {
-      font-family: 'arvobold';
-      font-size: 30px;
-      color: #000;
-      position: absolute;
-      top: 36%;
-      background-color: #fff;
-      min-width: 13.5%;
-      text-align: left;
-      height: 10%;
-      line-height: 1;
-      width: 28%;
-      right: 9%; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-width {
-      width: 14%;
-      text-align: center;
-      right: 23%; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .h-width:after {
-      right: -2%; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .block-front-banner-rooms:hover {
-      opacity: 0.8;
-      color: transparent; }
-    .banner-rooms div.banner-rooms-row div.banner-rooms-column .block-front-banner-rooms {
-      z-index: 1001;
-      background-color: #f2bf01;
-      transition: all 0.4s ease-in-out 0s;
-      opacity: 0;
-      color: white;
-      cursor: pointer;
-      position: absolute;
-      width: 97.2%;
-      height: 100%;
-      top: 0;
-      text-align: center; }
-  .banner-rooms div.banner-rooms-row .h-bottom-room:before {
-    content: url("../images/b-r-w.png");
-    top: -2%;
-    right: 92%;
-    position: absolute; }
-  .banner-rooms div.banner-rooms-row .h-bottom-room {
-    font-family: 'arvoitalic', sans-serif;
-    font-size: 20px;
-    background-color: #f8c301;
-    color: #000;
-    width: 18%;
+  .banner-rooms .banner-rooms-row .banner-rooms-column .bg-beedroom {
+    background: url(../images/beedroom.png) no-repeat -136px 0px;
+    background-size: cover;
+    min-height: 296px;
+    position: relative; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .text-1, .banner-rooms .banner-rooms-row .banner-rooms-column .text-2, .banner-rooms .banner-rooms-row .banner-rooms-column .text-3 {
+    font-size: 30px;
+    font-family: arvobold, sans-serif;
+    background-color: #fff;
     position: absolute;
-    right: 18%;
-    bottom: 29%;
+    height: 9%;
+    line-height: 1; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .text-1 {
+    content: '[';
+    top: 29%;
+    right: 3.5%;
+    width: 56%; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .text-2 {
+    content: ']';
+    top: 42%;
+    right: 3.5%; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .text-3 {
+    content: ']';
+    top: 42%;
+    right: 3.5%; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .block-front-banner-rooms:hover {
+    opacity: 0.8;
+    color: transparent; }
+  .banner-rooms .banner-rooms-row .banner-rooms-column .block-front-banner-rooms {
+    z-index: 1001;
+    background-color: #f2bf01;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 97.2%;
+    height: 100%;
+    top: 0;
     text-align: center; }
-    .banner-rooms div.banner-rooms-row .h-bottom-room a {
-      color: #000;
-      text-decoration: none; }
-  .banner-rooms div.banner-rooms-row .h-bottom-room:after {
-    content: url("../images/b-l-w.png");
-    top: -5%;
-    right: -2%;
-    position: absolute; }
+.banner-rooms .banner-rooms-row .h-bottom-room:before {
+  content: url("../images/b-r-w.png");
+  top: -2%;
+  right: 92%;
+  position: absolute; }
+.banner-rooms .banner-rooms-row .h-bottom-room {
+  font-family: 'arvoitalic', sans-serif;
+  font-size: 20px;
+  background-color: #f8c301;
+  color: #000;
+  width: 18%;
+  position: absolute;
+  right: 18%;
+  bottom: 29%;
+  text-align: center; }
+  .banner-rooms .banner-rooms-row .h-bottom-room a {
+    color: #000;
+    text-decoration: none; }
+.banner-rooms .banner-rooms-row .h-bottom-room:after {
+  content: url("../images/b-l-w.png");
+  top: -5%;
+  right: -2%;
+  position: absolute; }
 
 /*# sourceMappingURL=banner-rooms.css.map */

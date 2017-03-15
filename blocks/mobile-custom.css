@@ -1,0 +1,330 @@
+@media (min-width: 320px) {
+  header {
+    display: table;
+    width: 100%; }
+    header .delivery .content-delivery {
+      text-align: center;
+      position: relative; }
+      header .delivery .content-delivery .text-delivery {
+        padding-left: 7%; }
+      header .delivery .content-delivery .text-delivery:before .text-delivery {
+        padding-left: 7%; }
+      header .delivery .content-delivery .text-delivery:before {
+        position: absolute;
+        top: 24%;
+        left: -3%; }
+    header .btn-group {
+      display: none; }
+    header .header-content {
+      display: table-header-group; }
+      header .header-content .navbar-header {
+        display: inline-block;
+        float: left; }
+      header .header-content .conteiner-logo {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle; }
+        header .header-content .conteiner-logo .logo-img {
+          width: 144px;
+          height: 38px;
+          margin-top: 9px; }
+        header .header-content .conteiner-logo .my-score, header .header-content .conteiner-logo .basket-home {
+          display: none; }
+      header .header-content .search-basket-div {
+        display: inline-block;
+        padding: 7px 0 0 0; }
+      header .header-content .menu-button {
+        display: inline-block;
+        float: left; }
+        header .header-content .menu-button .icon-bar {
+          background-color: #000000; }
+      header .header-content .search {
+        display: none; }
+      header .header-content .basket-home, header .header-content .my-score {
+        display: none; }
+
+  body .row .banner-block {
+    background: url(../images/main-banner.png);
+    background-size: cover;
+    background-position-x: 35%;
+    min-height: 257px;
+    text-align: right; }
+    body .row .banner-block .text-banner-content-1 {
+      right: 0%; }
+      body .row .banner-block .text-banner-content-1 .text-banner-1:before {
+        content: url("../images/b-r-w.png");
+        left: 0%;
+        top: 0%; }
+      body .row .banner-block .text-banner-content-1 .text-banner-1, body .row .banner-block .text-banner-content-1 .text-banner-2 {
+        font-size: 29px;
+        height: 26px;
+        line-height: 1; }
+      body .row .banner-block .text-banner-content-1 .text-banner-2 {
+        display: block;
+        margin-top: 4%;
+        position: relative; }
+      body .row .banner-block .text-banner-content-1 .text-banner-2:after {
+        content: url("../images/b-l-w.png");
+        right: 0%;
+        top: 0%; }
+    body .row .banner-block .text-banner-content-2 {
+      display: inline-block;
+      position: absolute;
+      top: 55%;
+      right: 32%; }
+      body .row .banner-block .text-banner-content-2 .text-banner-3:before {
+        content: url("../images/b-r-w.png"); }
+      body .row .banner-block .text-banner-content-2 .text-banner-3 {
+        position: relative;
+        right: 0%;
+        font-size: 17px;
+        height: 27px; }
+        body .row .banner-block .text-banner-content-2 .text-banner-3 a {
+          vertical-align: top; }
+      body .row .banner-block .text-banner-content-2 .text-banner-3:after {
+        content: url("../images/b-l-w.png"); }
+  body .row .products .row {
+    margin-top: 15px; }
+    body .row .products .row .col-products {
+      padding-bottom: 15px; }
+      body .row .products .row .col-products .bg-sofa {
+        background-image: url("../images/sofa.png"); }
+      body .row .products .row .col-products .bg-cadeira {
+        background-image: url("../images/cadeira.png"); }
+      body .row .products .row .col-products .bg-abajur {
+        background-image: url("../images/abajur.png"); }
+      body .row .products .row .col-products .bg-mesa {
+        background-image: url("../images/mesa.png"); }
+      body .row .products .row .col-products .bg-decoracao {
+        background-image: url("../images/decoracao.png"); }
+      body .row .products .row .col-products .bg-estante {
+        background-image: url("../images/estante.png"); }
+      body .row .products .row .col-products .product {
+        height: 144px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative; }
+      body .row .products .row .col-products .text-top {
+        font-family: 'arvobold', sans-serif;
+        font-size: 18px;
+        position: absolute;
+        top: 5%;
+        right: 15%;
+        color: #000;
+        text-align: center; }
+        body .row .products .row .col-products .text-top span {
+          padding-left: 5px; }
+      body .row .products .row .col-products .text-top:after {
+        content: "]";
+        position: absolute;
+        color: #f8c301; }
+      body .row .products .row .col-products .text-top:before {
+        content: "[";
+        position: absolute;
+        color: #f8c301; }
+    body .row .products .row .col-products-l {
+      padding-right: 7.5px !important; }
+    body .row .products .row .col-products-r {
+      padding-left: 7.5px !important; }
+    body .row .products .row .col-product-button {
+      padding-bottom: 0px; }
+  body .row .banner-rooms-row {
+    padding-left: 0px;
+    padding-bottom: 15px; }
+    body .row .banner-rooms-row .banner-rooms-column {
+      padding-top: 15px; }
+      body .row .banner-rooms-row .banner-rooms-column .bg-rooms {
+        min-height: 147px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; }
+      body .row .banner-rooms-row .banner-rooms-column .text-1, body .row .banner-rooms-row .banner-rooms-column .text-2, body .row .banner-rooms-row .banner-rooms-column .text-3 {
+        font-size: 18px; }
+      body .row .banner-rooms-row .banner-rooms-column .text-1 {
+        width: 45%; }
+      body .row .banner-rooms-row .banner-rooms-column .text-2 {
+        width: 18%; }
+      body .row .banner-rooms-row .banner-rooms-column .text-3 {
+        width: 29%; }
+      body .row .banner-rooms-row .banner-rooms-column .text-1:before {
+        content: '[';
+        font-size: 16px;
+        color: #f8c301;
+        position: absolute;
+        top: -2px;
+        left: -3px; }
+      body .row .banner-rooms-row .banner-rooms-column .text-2:after {
+        content: ']';
+        font-size: 16px;
+        color: #f8c301;
+        position: absolute;
+        top: -2px;
+        right: -1px; }
+      body .row .banner-rooms-row .banner-rooms-column .text-3:after {
+        content: ']';
+        font-size: 16px;
+        color: #f8c301;
+        position: absolute;
+        top: -2px;
+        right: -1px; }
+      body .row .banner-rooms-row .banner-rooms-column .ver-mais {
+        position: absolute;
+        bottom: 28%;
+        right: 4%;
+        width: 89px; }
+      body .row .banner-rooms-row .banner-rooms-column .block-front-banner-rooms {
+        display: none; }
+  body .row .textile .pillow-textile {
+    position: relative; }
+    body .row .textile .pillow-textile .img-textile {
+      width: 100%;
+      height: auto; }
+    body .row .textile .pillow-textile .ver-mais {
+      position: absolute;
+      position: absolute;
+      bottom: 55%;
+      left: 10%;
+      width: 89px; }
+  body .row .textile .street-textile {
+    padding-top: 15px; }
+    body .row .textile .street-textile .img-textile {
+      width: 100%;
+      height: auto; }
+    body .row .textile .street-textile .ver-mais {
+      position: absolute;
+      position: absolute;
+      bottom: 55%;
+      left: 10%;
+      width: 89px; }
+  body .row .textile .bathroom-textile {
+    padding-top: 15px; }
+  body .row .textile .img-textile {
+    width: 100%;
+    height: auto; }
+  body .row .textile .ver-mais {
+    position: absolute;
+    position: absolute;
+    bottom: 55%;
+    left: 10%;
+    width: 89px; }
+
+  .footer .form-check-in {
+    margin-top: 0%; }
+    .footer .form-check-in img {
+      display: none; }
+  .footer .panel-group {
+    padding: 0 0 0 0;
+    margin: 5% 0 5% 0; }
+    .footer .panel-group .panel-accordion {
+      border-radius: 0px;
+      margin: 0 0 0 0 !important; }
+      .footer .panel-group .panel-accordion .panel-heading-bg {
+        background-color: #fff;
+        border-radius: 0px;
+        font-family: arvobold;
+        font-size: 15px; }
+        .footer .panel-group .panel-accordion .panel-heading-bg .text-accordion-left {
+          text-decoration: none; }
+        .footer .panel-group .panel-accordion .panel-heading-bg .text-accordion-right {
+          float: right;
+          text-decoration: none; }
+      .footer .panel-group .panel-accordion .list-accordion {
+        font-family: "MR", sans-serif;
+        font-size: 13px; }
+  .footer .sprites-5el .sprites-div {
+    margin-top: 3%; }
+    .footer .sprites-5el .sprites-div .visa {
+      display: inline-block;
+      background: url("../images/visa-2.png") no-repeat 2px 2px; }
+    .footer .sprites-5el .sprites-div .visa:hover {
+      display: inline-block;
+      background: url("../images/visa.png") no-repeat 2px 2px; }
+    .footer .sprites-5el .sprites-div .visa-tablet-home {
+      display: none; }
+    .footer .sprites-5el .sprites-div .visa-tablet-home:hover {
+      background: url("../images/visa-tablet-home-hover.png") no-repeat 2px 2px; }
+    .footer .sprites-5el .sprites-div .master {
+      background: url("../images/master.png") no-repeat 5px 2px;
+      background-size: 51px; }
+    .footer .sprites-5el .sprites-div .master:hover {
+      background: url("../images/master-front.png") no-repeat 5px 2px;
+      background-size: 51px; }
+    .footer .sprites-5el .sprites-div .diners {
+      background: url("../images/diners.png") no-repeat 15px 0;
+      height: 35px;
+      margin-left: 2%; }
+    .footer .sprites-5el .sprites-div .diners:hover {
+      background: url("../images/diners-front.png") no-repeat 15px 0;
+      height: 35px;
+      margin-left: 2%; }
+    .footer .sprites-5el .sprites-div .express {
+      background: url("../images/express.png") no-repeat 9px 3px;
+      background-size: 42px;
+      height: 43px;
+      width: 52px;
+      margin-left: 2%; }
+    .footer .sprites-5el .sprites-div .express:hover {
+      background: url("../images/expres-front.png") no-repeat 9px 3px;
+      background-size: 42px;
+      height: 43px;
+      width: 52px;
+      margin-left: 2%; }
+    .footer .sprites-5el .sprites-div .hipercard {
+      background: url("../images/hippercard.png") no-repeat 0px 6px;
+      margin-top: 2%; }
+    .footer .sprites-5el .sprites-div .hipercard:hover {
+      background: url("../images/hipercard-front.png") no-repeat 0px 6px;
+      margin-top: 2%; }
+    .footer .sprites-5el .sprites-div .elo {
+      background: url("../images/elo.png") no-repeat 9px 0;
+      margin-top: 2%; }
+    .footer .sprites-5el .sprites-div .elo:hover {
+      background: url("../images/elo-front.png") no-repeat 9px 0;
+      margin-top: 2%; }
+    .footer .sprites-5el .sprites-div .boleto {
+      background: url("../images/boleto.png") no-repeat 3px 8px;
+      margin-top: 2%; }
+    .footer .sprites-5el .sprites-div .boleto:hover {
+      background: url("../images/boletto.png") no-repeat 3px 8px;
+      margin-top: 2%; }
+  .footer .text-formas {
+    font-size: 16px; }
+  .footer .sprites-2el, .footer .sprites-5el {
+    font-family: "arvo", serif;
+    font-size: 17px; }
+  .footer .sprites-2el {
+    margin-top: 6%;
+    padding-top: 3%;
+    border-top: 1px solid #e6e8e8;
+    border-bottom: 1px solid #e6e8e8; }
+    .footer .sprites-2el .icon-ebit {
+      background: url("../images/e-bit.png"); }
+    .footer .sprites-2el .icon-fcontrol {
+      background: url("../images/fcontrl.png") no-repeat 10px 1px; }
+  .footer .text-after-sprites {
+    font-size: 15px;
+    font-family: "arvo";
+    color: #a7a9ac;
+    margin-top: 4%;
+    text-align: center; }
+  .footer .after-footer {
+    padding: 1% 0 1% 0%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    text-align: center; }
+  .footer .volte {
+    background-color: #a5a5a5;
+    min-height: 36px;
+    text-align: center;
+    padding-top: 2%;
+    font-family: "arvo", serif; }
+    .footer .volte a {
+      text-decoration: none;
+      color: #fff; }
+    .footer .volte .right-gala {
+      float: right; }
+    .footer .volte .left-gala {
+      float: left; } }
+
+/*# sourceMappingURL=mobile-custom.css.map */

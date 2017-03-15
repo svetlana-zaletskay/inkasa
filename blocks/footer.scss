@@ -1,202 +1,201 @@
-footer {
+.footer {
   position: relative;
   margin-bottom: 2%;
-  .footer:before {
-    content: "";
-    //width: 97.5%;
-    height: 2px;
-    background-color: #000;
-    position: absolute;
-    top: -4%;
-    left: 1.2%;
+  //.footer:before {
+  //  content: "";
+  //  //width: 97.5%;
+  //  height: 2px;
+  //  background-color: #000;
+  //  position: absolute;
+  //  top: -4%;
+  //  left: 1.2%;
+  //}
+  //.footer {
+  //  font-family: 'arvobold', sans-serif;
+  //  font-size: 16px;
+  //  margin-top: 3%;
+  //  div.margin-r {
+  //    margin: 0 1% 0 1.2%;
+  //  }
+  //.col-display {
+  //  vertical-align: top;
+  //  display: inline-block;
+  //}
+  //.col-footer-1-2 {
+  //  //width: 15%;
+  //  display: inline-block;
+  //  .list-1-2 {
+  //    div.el-padding {
+  //      padding-top: 11%;
+  //    }
+  //    .el {
+  //      font-family: "MR", sans-serif;
+  //      font-size: 13px;
+  //      padding-top: 3.1%;
+  //    }
+  //  }
+  //}
+
+  .text-formas {
+    font-size: 15px;
   }
-  .footer {
-    font-family: 'arvobold', sans-serif;
-    font-size: 16px;
-    margin-top: 3%;
-    div.margin-r {
-      margin: 0 1% 0 1.2%;
-    }
-    .col-display {
-      vertical-align: top;
+  .sprites-2el,.sprites-5el{
+    font-family: arvobold, sans-serif;
+    text-align: center;
+  }
+  .sprites-div {
+    margin-top: 2%;
+    .icon {
+      height: 33px;
+      width: 56px;
+      background-repeat: no-repeat;
       display: inline-block;
+      text-align: center;
+      vertical-align: middle;
     }
-    .col-footer-1-2 {
-      //width: 15%;
-      display: inline-block;
-      .list-1-2 {
-        div.el-padding {
-          padding-top: 11%;
-        }
-        .el {
-          font-family: "MR", sans-serif;
-          font-size: 13px;
-          padding-top: 3.1%;
-        }
-      }
+    .icon:hover {
+      background-repeat: no-repeat;
     }
-    .col-footer-3 {
-      .text-formas {
-        font-size: 15px;
-      }
-      .sprites-div {
-        margin-top: 2%;
-        .icon {
-          height: 33px;
-          width: 56px;
-          background-repeat: no-repeat;
-          display: inline-block;
-          text-align: center;
-          vertical-align: middle;
-        }
-        .icon:hover {
-          background-repeat: no-repeat;
-        }
-        .visa {
-          background: url("../images/visa-2.png") 0 0;
-          //background-repeat: no-repeat;
-        }
-        .visa:hover {
-          background: url("../images/visa.png") 0 0;
-        }
-        .master {
-          background: url("../images/master.png") 4px 2px;
-          background-size: 51px;
-        }
-        .master:hover {
-          background: url("../images/master-front.png") 0px 0;
-        }
-        .diners {
-          background: url("../images/diners.png") 0px 4px;
-        }
-        .diners:hover {
-          background: url("../images/diners-front.png") 0 0;
-        }
-        .express {
-          background: url("../images/express.png") 0 0;
-        }
-        .express:hover {
-          background: url("../images/expres-front.png") 0 0;
-        }
-        .hipercard {
-          background: url("../images/hippercard.png") 0 0;
-        }
-        .hipercard:hover {
-          background: url("../images/hipercard-front.png") 0 0;
-        }
-        .elo {
-          background: url("../images/elo.png") 0 0;
-        }
-        .elo:hover {
-          background: url("../images/elo-front.png") 0 0;
-        }
-        .boleto {
-          background: url("../images/boleto.png") 0 0;
-        }
-        .boleto:hover {
-          background: url("../images/boletto.png") 0 0;
-        }
-      }
+    .visa {
+      background: url("../images/visa-2.png") 0 0;
+      //background-repeat: no-repeat;
+    }
+    .visa:hover {
+      background: url("../images/visa.png") 0 0;
+    }
+    .master {
+      background: url("../images/master.png") 4px 2px;
+      background-size: 51px;
+    }
+    .master:hover {
+      background: url("../images/master-front.png") 0px 0;
+    }
+    .diners {
+      background: url("../images/diners.png") 0px 4px;
+    }
+    .diners:hover {
+      background: url("../images/diners-front.png") 0 0;
+    }
+    .express {
+      background: url("../images/express.png") 0 0;
+    }
+    .express:hover {
+      background: url("../images/expres-front.png") 0 0;
+    }
+    .hipercard {
+      background: url("../images/hippercard.png") 0 0;
+    }
+    .hipercard:hover {
+      background: url("../images/hipercard-front.png") 0 0;
+    }
+    .elo {
+      background: url("../images/elo.png") 0 0;
+    }
+    .elo:hover {
+      background: url("../images/elo-front.png") 0 0;
+    }
+    .boleto {
+      background: url("../images/boleto.png") 0 0;
+    }
+    .boleto:hover {
+      background: url("../images/boletto.png") 0 0;
     }
   }
-  .col-footer-4 {
-    .text-formas {
-      font-size: 15px;
-    }
-    .icon-ebit {
-      width: 83px;
-      height: 89px;
-      background-position: 0 100%;
-      background-image: url("../images/sprite-2el.png");
-      background-size: 259.03%, 117.97%;
-      display: inline-block;
-      margin-top: 3%;
-    }
-    .icon-fcontrol {
-      width: 112px;
-      height: 105px;
-      background: url("../images/sprite-2el.png");
-      background-position: 97.08% 100%;
-      background-size: 191.96% 100%;
-      margin-top: 3%;
-      display: inline-block;
-    }
+  .text-formas {
+    font-size: 15px;
   }
 
-  div.col-footer-5 {
-    text-align: center;
+  .icon-ebit {
+    width: 83px;
+    height: 89px;
+    background-image: url("../images/e-bit.png");
+    display: inline-block;
+  }
+
+  .icon-fcontrol {
+    width: 112px;
+    height: 105px;
+    background: url("../images/fcontrl.png");
+    display: inline-block;
+  }
+  .form-check-in {
     background-color: #f6f6f6;
-    position: relative;
-    .form-check-in {
-      .form-text {
-        font-family: "MR", sans-serif;
-        font-size: 13px;
-        color: #3e3e3e;
-        padding: 7% 0 7% 0;
-      }
-      .input-position {
-        position: relative;
-      }
-      .check-input {
-        width: 80%;
-        margin-bottom: 7%;
-        padding: 3% 0 3% 3%;
-        font-family: "MLI", sans-serif;
-        font-size: 12px;
-        color: #606060;
-        border: none;
-      }
-      .form-name-bracket-l {
-        position: absolute;
-        top: 36.5%;
-        left: 7.5%;
-        height: 40px;
-      }
-      .form-name-bracket-r {
-        position: absolute;
-        top: 36.5%;
-        right: 9%;
-        height: 40px;
-      }
-      .form-e-mail-bracket-l {
-        position: absolute;
-        top: 57%;
-        left: 8%;
-        height: 39px;
-      }
-      .form-e-mail-bracket-r {
-        position: absolute;
-        top: 57%;
-        right: 9%;
-        height: 40px;
-      }
-      .footer-button {
-        background-color: #f8c301;
-        border: none;
-        width: 82%;
-        height: 32px;
-        margin-bottom: 23px;
-        //padding: 0 26% 0 25.7%;
-
-      }
-      .footer-button-b-l {
-        position: absolute;
-        top: 77.5%;
-        height: 14%;
-        left: 8.3%;
-      }
-      .footer-button-b-r {
-        position: absolute;
-        top: 77.5%;
-        right: 9%;
-        height: 14%;
-      }
-    }
-  }
-  .after-footer {
-    padding: 1% 0 1% 0%;
-    background-color: #f1f1f1;
-    margin-top: 3%;
+    color: #000;
+    font-family: arvobold;
     text-align: center;
+    font-size: 16px;
+    padding-top: 3%;
+    margin-top: 5%;
+    .form-text {
+      font-family: "MR", sans-serif;
+      font-size: 13px;
+      color: #3e3e3e;
+      padding: 7% 0 7% 0;
+
+    }
+    .input-position {
+      position: relative;
+    }
+    .check-input {
+      width: 80%;
+      margin-bottom: 7%;
+      padding: 3% 0 3% 3%;
+      font-family: "MLI", sans-serif;
+      font-size: 12px;
+      color: #606060;
+      border: none;
+    }
+    .form-name-bracket-l {
+      position: absolute;
+      top: 38.5%;
+      left: 12.5%;
+      height: 15%;
+    }
+    .form-name-bracket-r {
+      position: absolute;
+      top: 38.5%;
+      right: 14%;
+      height: 15%;
+    }
+    .form-e-mail-bracket-l {
+      position: absolute;
+      top: 57%;
+      left: 8%;
+      height: 39px;
+    }
+    .form-e-mail-bracket-r {
+      position: absolute;
+      top: 57%;
+      right: 9%;
+      height: 40px;
+    }
+    .footer-button {
+      background-color: #f8c301;
+      border: none;
+      width: 80%;
+      height: 32px;
+      margin-bottom: 23px;
+      //padding: 0 26% 0 25.7%;
+    }
+    .footer-button-b-l {
+      position: absolute;
+      top: 77.5%;
+      height: 14%;
+      left: 8.3%;
+    }
+    .footer-button-b-r {
+      position: absolute;
+      top: 77.5%;
+      right: 9%;
+      height: 14%;
+    }
   }
 }
+
+.after-footer {
+  padding: 1% 0 1% 0%;
+  background-color: #f1f1f1;
+  margin-top: 3%;
+  text-align: center;
+}
+

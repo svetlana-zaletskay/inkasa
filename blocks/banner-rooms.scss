@@ -1,70 +1,42 @@
-//@media (min-width: 992px) {
-//  .banner-rooms-col-1 {
-//    width: 49.5%;
-//  }
-//}
 .banner-rooms {
-  div.banner-rooms-row {
-    margin-top: 36px;
-
-    div.banner-rooms-column {
+  .banner-rooms-row {
+    .banner-rooms-column {
       position: relative;
-
-      .img-room{
-        width: 100%;
-        height: auto;
+      .bg-kitchen{
+        background: url(../images/kitchen-room.png) no-repeat -113px 0px;
+        background-size: cover;
+        min-height: 296px;
+        position: relative;
       }
-      .h-top-room {
-        font-family: 'arvobold';
+      .bg-beedroom{
+        background: url(../images/beedroom.png) no-repeat -136px 0px;
+        background-size: cover;
+        min-height: 296px;
+        position: relative;
+      }
+      .text-1, .text-2, .text-3{
         font-size: 30px;
-        color: #000;
-        position: absolute;
-        top: 23%;
-        right: 0;
+        font-family: arvobold, sans-serif;
         background-color: #fff;
-        width: 37%;
-        height: 10%;
+        position: absolute;
+        height: 9%;
         line-height: 1;
-        opacity: 1;
       }
-      .h-top-room:before {
-        content: url("../images/b-l-banner-rooms.png");
-        position: absolute;
-        top: -1%;
-        right: 96%;
+      .text-1 {
+        content: '[';
+        top: 29%;
+        right: 3.5%;
+        width: 56%;
       }
-      .h-center-room:after {
-        content: url("../images/b-r-banner-room.png");
-        position: absolute;
-        top: -1%;
-        right: -3%;
+      .text-2 {
+        content: ']';
+        top: 42%;
+        right: 3.5%;
       }
-      .h-center-room:before{
-        content: "";
-        position: absolute;
-      }
-      .h-center-room {
-        font-family: 'arvobold';
-        font-size: 30px;
-        color: #000;
-        position: absolute;
-        top: 36%;
-        background-color: #fff;
-        min-width: 13.5%;
-        text-align: left;
-        height: 10%;
-        line-height: 1;
-        width: 28%;
-        right: 9%;
-      }
-      .h-width {
-        width: 14%;
-        text-align: center;
-        right: 23%;
-      }
-      .h-width:after {
-        right: -2%;
-
+      .text-3{
+        content: ']';
+        top: 42%;
+        right: 3.5%;
       }
       .block-front-banner-rooms:hover {
         opacity: 0.8;
