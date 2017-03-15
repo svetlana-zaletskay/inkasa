@@ -1,102 +1,79 @@
-footer {
+.footer {
   position: relative;
   margin-bottom: 2%; }
-  footer .footer:before {
-    content: "";
-    height: 2px;
-    background-color: #000;
-    position: absolute;
-    top: -4%;
-    left: 1.2%; }
-  footer .footer {
-    font-family: 'arvobold', sans-serif;
-    font-size: 16px;
-    margin-top: 3%; }
-    footer .footer div.margin-r {
-      margin: 0 1% 0 1.2%; }
-    footer .footer .col-display {
-      vertical-align: top;
-      display: inline-block; }
-    footer .footer .col-footer-1-2 {
-      display: inline-block; }
-      footer .footer .col-footer-1-2 .list-1-2 div.el-padding {
-        padding-top: 11%; }
-      footer .footer .col-footer-1-2 .list-1-2 .el {
-        font-family: "MR", sans-serif;
-        font-size: 13px;
-        padding-top: 3.1%; }
-    footer .footer .col-footer-3 .text-formas {
-      font-size: 15px; }
-    footer .footer .col-footer-3 .sprites-div {
-      margin-top: 2%; }
-      footer .footer .col-footer-3 .sprites-div .icon {
-        height: 33px;
-        width: 56px;
-        background-repeat: no-repeat;
-        display: inline-block;
-        text-align: center;
-        vertical-align: middle; }
-      footer .footer .col-footer-3 .sprites-div .icon:hover {
-        background-repeat: no-repeat; }
-      footer .footer .col-footer-3 .sprites-div .visa {
-        background: url("../images/visa-2.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .visa:hover {
-        background: url("../images/visa.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .master {
-        background: url("../images/master.png") 4px 2px;
-        background-size: 51px; }
-      footer .footer .col-footer-3 .sprites-div .master:hover {
-        background: url("../images/master-front.png") 0px 0; }
-      footer .footer .col-footer-3 .sprites-div .diners {
-        background: url("../images/diners.png") 0px 4px; }
-      footer .footer .col-footer-3 .sprites-div .diners:hover {
-        background: url("../images/diners-front.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .express {
-        background: url("../images/express.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .express:hover {
-        background: url("../images/expres-front.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .hipercard {
-        background: url("../images/hippercard.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .hipercard:hover {
-        background: url("../images/hipercard-front.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .elo {
-        background: url("../images/elo.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .elo:hover {
-        background: url("../images/elo-front.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .boleto {
-        background: url("../images/boleto.png") 0 0; }
-      footer .footer .col-footer-3 .sprites-div .boleto:hover {
-        background: url("../images/boletto.png") 0 0; }
-  footer .col-footer-4 .text-formas {
+  .footer .text-formas {
     font-size: 15px; }
-  footer .col-footer-4 .icon-ebit {
+  .footer .sprites-2el, .footer .sprites-5el {
+    font-family: arvobold, sans-serif;
+    text-align: center; }
+  .footer .sprites-div {
+    margin-top: 2%; }
+    .footer .sprites-div .icon {
+      height: 33px;
+      width: 56px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle; }
+    .footer .sprites-div .icon:hover {
+      background-repeat: no-repeat; }
+    .footer .sprites-div .visa {
+      background: url("../images/visa-2.png") 0 0; }
+    .footer .sprites-div .visa:hover {
+      background: url("../images/visa.png") 0 0; }
+    .footer .sprites-div .master {
+      background: url("../images/master.png") 4px 2px;
+      background-size: 51px; }
+    .footer .sprites-div .master:hover {
+      background: url("../images/master-front.png") 0px 0; }
+    .footer .sprites-div .diners {
+      background: url("../images/diners.png") 0px 4px; }
+    .footer .sprites-div .diners:hover {
+      background: url("../images/diners-front.png") 0 0; }
+    .footer .sprites-div .express {
+      background: url("../images/express.png") 0 0; }
+    .footer .sprites-div .express:hover {
+      background: url("../images/expres-front.png") 0 0; }
+    .footer .sprites-div .hipercard {
+      background: url("../images/hippercard.png") 0 0; }
+    .footer .sprites-div .hipercard:hover {
+      background: url("../images/hipercard-front.png") 0 0; }
+    .footer .sprites-div .elo {
+      background: url("../images/elo.png") 0 0; }
+    .footer .sprites-div .elo:hover {
+      background: url("../images/elo-front.png") 0 0; }
+    .footer .sprites-div .boleto {
+      background: url("../images/boleto.png") 0 0; }
+    .footer .sprites-div .boleto:hover {
+      background: url("../images/boletto.png") 0 0; }
+  .footer .text-formas {
+    font-size: 15px; }
+  .footer .icon-ebit {
     width: 83px;
     height: 89px;
-    background-position: 0 100%;
-    background-image: url("../images/sprite-2el.png");
-    background-size: 259.03%, 117.97%;
-    display: inline-block;
-    margin-top: 3%; }
-  footer .col-footer-4 .icon-fcontrol {
+    background-image: url("../images/e-bit.png");
+    display: inline-block; }
+  .footer .icon-fcontrol {
     width: 112px;
     height: 105px;
-    background: url("../images/sprite-2el.png");
-    background-position: 97.08% 100%;
-    background-size: 191.96% 100%;
-    margin-top: 3%;
+    background: url("../images/fcontrl.png");
     display: inline-block; }
-  footer div.col-footer-5 {
-    text-align: center;
+  .footer .form-check-in {
     background-color: #f6f6f6;
-    position: relative; }
-    footer div.col-footer-5 .form-check-in .form-text {
+    color: #000;
+    font-family: arvobold;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 3%;
+    margin-top: 5%; }
+    .footer .form-check-in .form-text {
       font-family: "MR", sans-serif;
       font-size: 13px;
       color: #3e3e3e;
       padding: 7% 0 7% 0; }
-    footer div.col-footer-5 .form-check-in .input-position {
+    .footer .form-check-in .input-position {
       position: relative; }
-    footer div.col-footer-5 .form-check-in .check-input {
+    .footer .form-check-in .check-input {
       width: 80%;
       margin-bottom: 7%;
       padding: 3% 0 3% 3%;
@@ -104,46 +81,47 @@ footer {
       font-size: 12px;
       color: #606060;
       border: none; }
-    footer div.col-footer-5 .form-check-in .form-name-bracket-l {
+    .footer .form-check-in .form-name-bracket-l {
       position: absolute;
-      top: 36.5%;
-      left: 7.5%;
-      height: 40px; }
-    footer div.col-footer-5 .form-check-in .form-name-bracket-r {
+      top: 38.5%;
+      left: 12.5%;
+      height: 15%; }
+    .footer .form-check-in .form-name-bracket-r {
       position: absolute;
-      top: 36.5%;
-      right: 9%;
-      height: 40px; }
-    footer div.col-footer-5 .form-check-in .form-e-mail-bracket-l {
+      top: 38.5%;
+      right: 14%;
+      height: 15%; }
+    .footer .form-check-in .form-e-mail-bracket-l {
       position: absolute;
       top: 57%;
       left: 8%;
       height: 39px; }
-    footer div.col-footer-5 .form-check-in .form-e-mail-bracket-r {
+    .footer .form-check-in .form-e-mail-bracket-r {
       position: absolute;
       top: 57%;
       right: 9%;
       height: 40px; }
-    footer div.col-footer-5 .form-check-in .footer-button {
+    .footer .form-check-in .footer-button {
       background-color: #f8c301;
       border: none;
-      width: 82%;
+      width: 80%;
       height: 32px;
       margin-bottom: 23px; }
-    footer div.col-footer-5 .form-check-in .footer-button-b-l {
+    .footer .form-check-in .footer-button-b-l {
       position: absolute;
       top: 77.5%;
       height: 14%;
       left: 8.3%; }
-    footer div.col-footer-5 .form-check-in .footer-button-b-r {
+    .footer .form-check-in .footer-button-b-r {
       position: absolute;
       top: 77.5%;
       right: 9%;
       height: 14%; }
-  footer .after-footer {
-    padding: 1% 0 1% 0%;
-    background-color: #f1f1f1;
-    margin-top: 3%;
-    text-align: center; }
+
+.after-footer {
+  padding: 1% 0 1% 0%;
+  background-color: #f1f1f1;
+  margin-top: 3%;
+  text-align: center; }
 
 /*# sourceMappingURL=footer.css.map */

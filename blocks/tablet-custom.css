@@ -43,8 +43,284 @@
       header .header-content .basket-home, header .header-content .my-score {
         display: none; }
 
-  footer .footer .col-footer-1-2 {
-    display: none; } }
+  .body .row .banner-block {
+    background: url(../images/main-banner.png);
+    background-size: cover;
+    background-position-x: 35%;
+    min-height: 257px;
+    text-align: right; }
+    .body .row .banner-block .text-banner-content-1 {
+      right: 0%; }
+      .body .row .banner-block .text-banner-content-1 .text-banner-1:before {
+        left: -3%;
+        top: -5%;
+        font-size: 34px; }
+      .body .row .banner-block .text-banner-content-1 .text-banner-1, .body .row .banner-block .text-banner-content-1 .text-banner-2 {
+        font-size: 29px;
+        height: 26px;
+        line-height: 26px; }
+      .body .row .banner-block .text-banner-content-1 .text-banner-2 {
+        display: block;
+        margin-top: 4%;
+        position: relative; }
+      .body .row .banner-block .text-banner-content-1 .text-banner-2:after {
+        left: -3%;
+        top: -5%;
+        font-size: 34px; }
+    .body .row .banner-block .text-banner-content-2 {
+      display: inline-block;
+      position: absolute;
+      top: 55%;
+      right: 32%; }
+      .body .row .banner-block .text-banner-content-2 .text-banner-3:before .text-banner-3 {
+        position: relative;
+        right: 0%;
+        font-size: 17px;
+        height: 27px; }
+        .body .row .banner-block .text-banner-content-2 .text-banner-3:before .text-banner-3 a {
+          vertical-align: top; }
+    .body .row .banner-block .banner-rooms-row {
+      padding-left: 0px;
+      padding-bottom: 15px; }
+      .body .row .banner-block .banner-rooms-row .banner-rooms-column {
+        padding-top: 15px; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .bg-rooms {
+          min-height: 147px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-1, .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-2, .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-3 {
+          font-size: 18px; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-1 {
+          width: 45%; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-2 {
+          width: 18%; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-3 {
+          width: 29%; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-1:before {
+          content: '[';
+          font-size: 16px;
+          color: #f8c301;
+          position: absolute;
+          top: -2px;
+          left: -3px; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-2:after {
+          content: ']';
+          font-size: 16px;
+          color: #f8c301;
+          position: absolute;
+          top: -2px;
+          right: -1px; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .text-3:after {
+          content: ']';
+          font-size: 16px;
+          color: #f8c301;
+          position: absolute;
+          top: -2px;
+          right: -1px; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .ver-mais {
+          position: absolute;
+          bottom: 28%;
+          right: 4%;
+          width: 89px; }
+        .body .row .banner-block .banner-rooms-row .banner-rooms-column .block-front-banner-rooms {
+          display: none; }
+    .body .row .banner-block .textile .pillow-textile {
+      position: relative; }
+      .body .row .banner-block .textile .pillow-textile .img-textile {
+        width: 100%;
+        height: auto; }
+      .body .row .banner-block .textile .pillow-textile .ver-mais {
+        position: absolute;
+        position: absolute;
+        bottom: 55%;
+        left: 10%;
+        width: 89px; }
+    .body .row .banner-block .textile .street-textile {
+      padding-top: 15px; }
+      .body .row .banner-block .textile .street-textile .img-textile {
+        width: 100%;
+        height: auto; }
+      .body .row .banner-block .textile .street-textile .ver-mais {
+        position: absolute;
+        position: absolute;
+        bottom: 55%;
+        left: 10%;
+        width: 89px; }
+    .body .row .banner-block .textile .bathroom-textile {
+      padding-top: 15px; }
+    .body .row .banner-block .textile .img-textile {
+      width: 100%;
+      height: auto; }
+    .body .row .banner-block .textile .ver-mais {
+      position: absolute;
+      position: absolute;
+      bottom: 55%;
+      left: 10%;
+      width: 89px; }
+  .body .row .products .row {
+    margin-top: 15px; }
+    .body .row .products .row .col-products {
+      padding-bottom: 15px; }
+      .body .row .products .row .col-products .bg-sofa {
+        background-image: url("../images/sofa.png"); }
+      .body .row .products .row .col-products .bg-cadeira {
+        background-image: url("../images/cadeira.png"); }
+      .body .row .products .row .col-products .bg-abajur {
+        background-image: url("../images/abajur.png"); }
+      .body .row .products .row .col-products .bg-mesa {
+        background-image: url("../images/mesa.png"); }
+      .body .row .products .row .col-products .bg-decoracao {
+        background-image: url("../images/decoracao.png"); }
+      .body .row .products .row .col-products .bg-estante {
+        background-image: url("../images/estante.png"); }
+      .body .row .products .row .col-products .product {
+        height: 144px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative; }
+      .body .row .products .row .col-products .text-top {
+        font-family: 'arvobold', sans-serif;
+        font-size: 18px;
+        position: absolute;
+        top: 5%;
+        right: 15%;
+        color: #000;
+        text-align: center; }
+        .body .row .products .row .col-products .text-top span {
+          padding-left: 5px; }
+      .body .row .products .row .col-products .text-top:after {
+        content: "]";
+        position: absolute;
+        color: #f8c301; }
+      .body .row .products .row .col-products .text-top:before {
+        content: "[";
+        position: absolute;
+        color: #f8c301; }
+    .body .row .products .row .col-products-l {
+      padding-right: 7.5px !important; }
+    .body .row .products .row .col-products-r {
+      padding-left: 7.5px !important; }
+    .body .row .products .row .col-product-button {
+      padding-bottom: 0px; }
+  .body .footer .form-check-in {
+    margin-top: 0%; }
+    .body .footer .form-check-in img {
+      display: none; }
+  .body .footer .panel-group {
+    padding: 0 0 0 0;
+    margin: 5% 0 5% 0; }
+    .body .footer .panel-group .panel-accordion {
+      border-radius: 0px;
+      margin: 0 0 0 0 !important; }
+      .body .footer .panel-group .panel-accordion .panel-heading-bg {
+        background-color: #fff;
+        border-radius: 0px;
+        font-family: arvobold;
+        font-size: 15px; }
+        .body .footer .panel-group .panel-accordion .panel-heading-bg .text-accordion-left {
+          text-decoration: none; }
+        .body .footer .panel-group .panel-accordion .panel-heading-bg .text-accordion-right {
+          float: right;
+          text-decoration: none; }
+      .body .footer .panel-group .panel-accordion .list-accordion {
+        font-family: "MR", sans-serif;
+        font-size: 13px; }
+  .body .footer .sprites-5el .sprites-div {
+    margin-top: 3%; }
+    .body .footer .sprites-5el .sprites-div .visa {
+      display: inline-block;
+      background: url("../images/visa-2.png") no-repeat 2px 2px; }
+    .body .footer .sprites-5el .sprites-div .visa:hover {
+      display: inline-block;
+      background: url("../images/visa.png") no-repeat 2px 2px; }
+    .body .footer .sprites-5el .sprites-div .visa-tablet-home {
+      display: none; }
+    .body .footer .sprites-5el .sprites-div .visa-tablet-home:hover {
+      background: url("../images/visa-tablet-home-hover.png") no-repeat 2px 2px; }
+    .body .footer .sprites-5el .sprites-div .master {
+      background: url("../images/master.png") no-repeat 5px 2px;
+      background-size: 51px; }
+    .body .footer .sprites-5el .sprites-div .master:hover {
+      background: url("../images/master-front.png") no-repeat 5px 2px;
+      background-size: 51px; }
+    .body .footer .sprites-5el .sprites-div .diners {
+      background: url("../images/diners.png") no-repeat 15px 0;
+      height: 35px;
+      margin-left: 2%; }
+    .body .footer .sprites-5el .sprites-div .diners:hover {
+      background: url("../images/diners-front.png") no-repeat 15px 0;
+      height: 35px;
+      margin-left: 2%; }
+    .body .footer .sprites-5el .sprites-div .express {
+      background: url("../images/express.png") no-repeat 9px 3px;
+      background-size: 42px;
+      height: 43px;
+      width: 52px;
+      margin-left: 2%; }
+    .body .footer .sprites-5el .sprites-div .express:hover {
+      background: url("../images/expres-front.png") no-repeat 9px 3px;
+      background-size: 42px;
+      height: 43px;
+      width: 52px;
+      margin-left: 2%; }
+    .body .footer .sprites-5el .sprites-div .hipercard {
+      background: url("../images/hippercard.png") no-repeat 0px 6px;
+      margin-top: 2%; }
+    .body .footer .sprites-5el .sprites-div .hipercard:hover {
+      background: url("../images/hipercard-front.png") no-repeat 0px 6px;
+      margin-top: 2%; }
+    .body .footer .sprites-5el .sprites-div .elo {
+      background: url("../images/elo.png") no-repeat 9px 0;
+      margin-top: 2%; }
+    .body .footer .sprites-5el .sprites-div .elo:hover {
+      background: url("../images/elo-front.png") no-repeat 9px 0;
+      margin-top: 2%; }
+    .body .footer .sprites-5el .sprites-div .boleto {
+      background: url("../images/boleto.png") no-repeat 3px 8px;
+      margin-top: 2%; }
+    .body .footer .sprites-5el .sprites-div .boleto:hover {
+      background: url("../images/boletto.png") no-repeat 3px 8px;
+      margin-top: 2%; }
+  .body .footer .text-formas {
+    font-size: 16px; }
+  .body .footer .sprites-2el, .body .footer .sprites-5el {
+    font-family: "arvo", serif;
+    font-size: 17px; }
+  .body .footer .sprites-2el {
+    margin-top: 6%;
+    padding-top: 3%;
+    border-top: 1px solid #e6e8e8;
+    border-bottom: 1px solid #e6e8e8; }
+    .body .footer .sprites-2el .icon-ebit {
+      background: url("../images/e-bit.png"); }
+    .body .footer .sprites-2el .icon-fcontrol {
+      background: url("../images/fcontrl.png") no-repeat 10px 1px; }
+  .body .footer .text-after-sprites {
+    font-size: 15px;
+    font-family: "arvo";
+    color: #a7a9ac;
+    margin-top: 4%;
+    text-align: center; }
+  .body .footer .after-footer {
+    padding: 1% 0 1% 0%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    text-align: center; }
+  .body .footer .volte {
+    background-color: #a5a5a5;
+    min-height: 36px;
+    text-align: center;
+    padding-top: 2%;
+    font-family: "arvo", serif; }
+    .body .footer .volte a {
+      text-decoration: none;
+      color: #fff; }
+    .body .footer .volte .right-gala {
+      float: right; }
+    .body .footer .volte .left-gala {
+      float: left; } }
 @media (min-width: 768px) {
   header {
     display: table;
@@ -86,89 +362,86 @@
   .basket-elements {
     display: none; }
 
-  footer .footer .panel-group .panel-accordion {
-    border-radius: 0px;
-    margin: 0 0 0 0; }
-    footer .footer .panel-group .panel-accordion .panel-heading-bg {
+  body .row .banner-block {
+    min-height: 257px;
+    text-align: right; }
+    body .row .banner-block .text-banner-content-2 {
+      right: 13%; }
+  body .row .banner-rooms .products .row .col-products .product {
+    height: 172px; }
+  body .row .banner-rooms .banner-rooms-row {
+    margin-left: -30px; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .bg-kitchen {
+      background: url(../images/kitchen-room.png) no-repeat;
+      background-size: 100% 100%;
+      height: 223px;
+      position: relative; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .bg-beedroom {
+      background: url(../images/beedroom.png) no-repeat;
+      background-size: 100% 100%;
+      height: 223px;
+      position: relative; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-1, body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-2, body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-3 {
+      font-size: 30px;
+      font-family: arvobold, sans-serif;
       background-color: #fff;
-      border-radius: 0px; }
-      footer .footer .panel-group .panel-accordion .panel-heading-bg .text-accordion-left {
-        text-decoration: none; }
-      footer .footer .panel-group .panel-accordion .panel-heading-bg .text-accordion-right {
-        float: right;
-        text-decoration: none; }
-    footer .footer .panel-group .panel-accordion .list-accordion {
-      font-family: "MR", sans-serif;
-      font-size: 13px; }
-  footer .footer .blocks-sprites .col-footer-1-2 {
-    display: none; }
-  footer .footer .blocks-sprites .col-footer-3 .sprites-div {
-    margin-top: 12%; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .visa-tablet-home {
-      display: inline-block;
-      background: url("../images/visa-tablet-home.png") no-repeat 2px 2px;
-      vertical-align: text-top; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .visa-tablet-home:hover {
-      background: url("../images/visa-tablet-home-hover.png") no-repeat 2px 2px; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .master {
-      background: url("../images/master.png") no-repeat 5px 2px;
-      background-size: 51px; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .master:hover {
-      background: url("../images/master-front.png") no-repeat 5px 2px;
-      background-size: 51px; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .diners {
-      background: url("../images/diners.png") no-repeat 15px 0;
-      height: 35px;
-      margin-left: 2%; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .diners:hover {
-      background: url("../images/diners-front.png") no-repeat 15px 0;
-      height: 35px;
-      margin-left: 2%; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .express {
-      background: url("../images/express.png") no-repeat 0 3px;
-      background-size: 42px;
-      height: 43px;
-      width: 52px; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .express:hover {
-      background: url("../images/expres-front.png") no-repeat 0 3px;
-      background-size: 42px;
-      height: 43px;
-      width: 52px; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .boleto {
-      background: url("../images/boleto.png") no-repeat 3px 8px;
-      vertical-align: text-top; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .boleto:hover {
-      background: url("../images/boletto.png") no-repeat 3px 8px;
-      vertical-align: text-top; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .visa {
-      display: none; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .hipercard {
-      display: none; }
-    footer .footer .blocks-sprites .col-footer-3 .sprites-div .elo {
-      display: none; }
-  footer .footer .blocks-sprites .text-after-sprites {
-    font-size: 15px;
-    font-family: "arvo";
-    color: #a7a9ac;
-    margin-top: 4%; }
-  footer .footer .blocks-sprites .col-footer-4 {
+      position: absolute;
+      height: 10%; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-1, body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-2, body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-3 {
+      line-height: 22px; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-1 {
+      top: 29%;
+      right: 3.5%;
+      width: 56%; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-2 {
+      top: 42%;
+      right: 3.5%;
+      width: 21%; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-3 {
+      width: 50%; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-1:before {
+      font-size: 24px;
+      top: -2px; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-2:after {
+      font-size: 24px;
+      top: -2px; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .text-3:after {
+      font-size: 24px;
+      top: -2px; }
+    body .row .banner-rooms .banner-rooms-row .banner-rooms-column .ver-mais {
+      bottom: 35%;
+      right: 4%; }
+  body .row .textile {
     padding-right: 0px; }
-    footer .footer .blocks-sprites .col-footer-4 .icon-ebit {
-      background: url("../images/e-bit.png"); }
-    footer .footer .blocks-sprites .col-footer-4 .icon-fcontrol {
-      background: url("../images/fcontrl.png") no-repeat 10px 1px;
-      width: 53%; }
-  footer .footer .col-forma {
-    padding-right: 20px; }
-    footer .footer .col-forma .col-footer-5 {
-      margin-left: -2%; }
-      footer .footer .col-forma .col-footer-5 img {
-        display: none; }
-  footer .footer .after-footer {
-    padding: 1% 0 1% 0%;
-    background-color: #f1f1f1;
-    margin-top: 3%;
-    text-align: center; } }
+    body .row .textile .pillow-textile {
+      padding-top: 0px;
+      padding-right: 0px; }
+    body .row .textile .street-textile {
+      padding-top: 0px;
+      padding-right: 0px; }
+    body .row .textile .bathroom-textile {
+      padding-top: 0px;
+      padding-right: 0px; }
+
+  .footer .panel-group {
+    padding: 0 0 0 0;
+    margin: 3% 0 3% 0; }
+  .footer .form-check-in {
+    float: right;
+    padding-top: 0px; }
+  .footer .text-formas {
+    font-family: 'arvobold', sans-serif; }
+  .footer .sprites-2el {
+    padding-top: 0px;
+    margin-top: 0%;
+    border: none; }
+  .footer .sprites-5el .sprites-div {
+    margin-top: 6%; }
+  .footer .text-after-sprites {
+    text-align: left;
+    margin-top: 0.5%; }
+  .footer .volte {
+    display: none; } }
 @media (min-width: 992px) {
   header {
     display: block;
@@ -230,6 +503,25 @@
         margin-left: 2%; }
       header .header-content .basket-elements {
         display: inline-block; }
+
+  body .body {
+    padding: 0 30px; }
+    body .body .row {
+      margin-left: 0%; }
+      body .body .row .banner-block {
+        min-height: 394px;
+        text-align: right;
+        margin-right: 15px; }
+        body .body .row .banner-block .text-banner-content-1 {
+          right: 0%; }
+          body .body .row .banner-block .text-banner-content-1 .text-banner-1, body .body .row .banner-block .text-banner-content-1 .text-banner-2 {
+            font-size: 43.36px;
+            height: 31px; }
+        body .body .row .banner-block .products {
+          padding-top: 23px; }
+          body .body .row .banner-block .products .row .col-products .product {
+            background-size: contain;
+            height: 190px; }
 
   footer .footer .col-footer-1-2 {
     display: inline-block;

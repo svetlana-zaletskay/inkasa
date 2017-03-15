@@ -1,46 +1,9 @@
-.catalog-products {
-
-  .sofa {
-    min-height: 192px;
-  }
-  .cadeira {
-    min-height: 192px;
-  }
-}
-
 .products {
   margin: 0 auto;
-
   .row {
     margin-top: 36px;
-
     .col-products {
-       .img-product {
-         max-width: 100%;
-         height: auto;
-         display: block;
-      }
-      .label {
-        font-family: 'arvobold';
-        font-size: 20px;
-        color: #000;
-        position: absolute;
-        top: 6%;
-        right: 5%;
-      }
-      .label:before {
-        content: "[";
-        font-family: 'arvobold';
-        font-size: 20px;
-        color: #f8c301;
-      }
-      .label:after {
-        content: "]";
-        font-family: 'arvobold';
-        font-size: 20px;
-        color: #f8c301;
-      }
-
+      position: relative;
       .block-front {
         z-index: 1001;
         background-color: #ebb901;
@@ -61,7 +24,7 @@
           text-decoration: none;
           position: absolute;
           top: 40%;
-          left: 26%;
+          left: 19%;
         }
         .ver-mais:after {
           content: "]";
@@ -79,7 +42,7 @@
       .block-front:hover {
         opacity: 0.8;
       }
-
     }
   }
 }
+
