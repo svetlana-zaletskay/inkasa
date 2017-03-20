@@ -93,17 +93,19 @@
     body .row .textile .pillow-textile {
       padding-top: 0px;
       padding-right: 0px; }
+      body .row .textile .pillow-textile .img-textile {
+        height: 270px; }
     body .row .textile .street-textile {
       padding-top: 0px;
       padding-right: 0px; }
+      body .row .textile .street-textile .img-textile {
+        height: 270px; }
     body .row .textile .bathroom-textile {
       padding-top: 0px;
       padding-right: 0px; }
+      body .row .textile .bathroom-textile .img-textile {
+        height: 270px; }
 
-  .footer .text-after-sprites {
-    display: none; }
-  .footer .after-footer {
-    display: none; }
   .footer .list-lorem {
     display: none; }
   .footer .panel-group {
@@ -117,9 +119,12 @@
   .footer .sprites-2el {
     padding-top: 0px;
     margin-top: 0%;
-    border: none; }
-  .footer .sprites-5el .sprites-div {
-    margin-top: 6%; }
+    border: none;
+    padding-left: 0%; }
+  .footer .sprites-5el {
+    padding-left: 0%; }
+    .footer .sprites-5el .sprites-div {
+      margin-top: 6%; }
   .footer .text-after-sprites {
     text-align: left;
     margin-top: 0.5%; }

@@ -138,25 +138,28 @@
         .pillow-textile {
           padding-top: 0px;
           padding-right: 0px;
+          .img-textile{
+            height: 270px;
+          }
         }
         .street-textile {
           padding-top: 0px;
           padding-right: 0px;
+          .img-textile{
+            height: 270px;
+          }
         }
         .bathroom-textile {
           padding-top: 0px;
           padding-right: 0px;
+          .img-textile{
+            height: 270px;
+          }
         }
       }
     }
   }
   .footer {
-    .text-after-sprites {
-      display: none;
-    }
-    .after-footer{
-      display: none;
-    }
     .list-lorem{
       display: none;
     }
@@ -175,8 +178,10 @@
       padding-top: 0px;
       margin-top: 0%;
       border: none;
+      padding-left: 0%;
     }
     .sprites-5el{
+      padding-left: 0%;
       .sprites-div{
         margin-top: 6%;
       }
