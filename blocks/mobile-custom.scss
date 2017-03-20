@@ -325,22 +325,15 @@
     .sprites-5el {
       .sprites-div {
         margin-top: 3%;
-        .icon {
-          //background-repeat: no-repeat;
-        }
         .visa {
           display: inline-block;
           background: url("../images/visa-2.png") no-repeat 2px 2px;
-
         }
         .visa:hover {
           display: inline-block;
           background: url("../images/visa.png") no-repeat 2px 2px;
         }
         .visa-tablet-home {
-          //display: inline-block;
-          //background: url("../images/visa-tablet-home.png") no-repeat 2px 2px;
-          //vertical-align: text-top;
           display: none;
         }
         .visa-tablet-home:hover {

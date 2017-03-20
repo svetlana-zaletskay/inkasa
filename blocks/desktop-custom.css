@@ -119,20 +119,24 @@
     .footer .list-lorem .list {
       width: 15.5%;
       font-family: "MR", sans-serif;
-      font-size: 12px; }
+      font-size: 13px; }
     .footer .list-lorem .list-2 {
       width: 14%; }
   .footer .panel-group {
     display: none; }
-  .footer .sprites-5-el {
-    width: 22%; }
-    .footer .sprites-5-el .sprites-div .visa-tablet-home {
-      display: inline-block; }
-    .footer .sprites-5-el .sprites-div .visa {
+  .footer .sprites-5el {
+    width: 22%;
+    padding-left: 0;
+    margin-left: -1%; }
+    .footer .sprites-5el .sprites-div .visa-tablet-home {
+      display: inline-block;
+      background: url(../images/visa-tablet-home.png) no-repeat 2px 2px;
+      vertical-align: text-top; }
+    .footer .sprites-5el .sprites-div .visa {
       display: none; }
-    .footer .sprites-5-el .sprites-div .hipercard {
+    .footer .sprites-5el .sprites-div .hipercard {
       display: none; }
-    .footer .sprites-5-el .sprites-div .elo {
+    .footer .sprites-5el .sprites-div .elo {
       display: none; }
   .footer .sprites-2el {
     padding-left: 0;
