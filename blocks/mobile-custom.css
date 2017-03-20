@@ -52,9 +52,9 @@
     body .row .banner-block .text-banner-content-1 {
       right: 0%; }
       body .row .banner-block .text-banner-content-1 .text-banner-1:before {
-        content: url("../images/b-r-w.png");
-        left: 0%;
-        top: 0%; }
+        left: -2%;
+        top: -12%;
+        font-size: 34px; }
       body .row .banner-block .text-banner-content-1 .text-banner-1, body .row .banner-block .text-banner-content-1 .text-banner-2 {
         font-size: 29px;
         height: 26px;
@@ -64,9 +64,9 @@
         margin-top: 4%;
         position: relative; }
       body .row .banner-block .text-banner-content-1 .text-banner-2:after {
-        content: url("../images/b-l-w.png");
-        right: 0%;
-        top: 0%; }
+        right: -3%;
+        top: -27%;
+        font-size: 34px; }
     body .row .banner-block .text-banner-content-2 {
       display: inline-block;
       position: absolute;
@@ -124,9 +124,9 @@
         position: absolute;
         color: #f8c301; }
     body .row .products .row .col-products-l {
-      padding-right: 7.5px !important; }
+      padding-right: 7.5px; }
     body .row .products .row .col-products-r {
-      padding-left: 7.5px !important; }
+      padding-left: 7.5px; }
     body .row .products .row .col-product-button {
       padding-bottom: 0px; }
   body .row .banner-rooms-row {
@@ -213,6 +213,8 @@
     margin-top: 0%; }
     .footer .form-check-in img {
       display: none; }
+  .footer .list-lorem {
+    display: none; }
   .footer .panel-group {
     padding: 0 0 0 0;
     margin: 5% 0 5% 0; }

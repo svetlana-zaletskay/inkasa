@@ -75,9 +75,9 @@
         .text-banner-content-1 {
           right: 0%;
           .text-banner-1:before {
-            content: url("../images/b-r-w.png");
-            left: 0%;
-            top: 0%;
+            left: -2%;
+            top: -12%;
+            font-size: 34px;
           }
           .text-banner-1, .text-banner-2 {
             font-size: 29px;
@@ -90,9 +90,9 @@
             position: relative;
           }
           .text-banner-2:after {
-            content: url("../images/b-l-w.png");
-            right: 0%;
-            top: 0%;
+            right: -3%;
+            top: -27%;
+            font-size: 34px;
           }
         }
         .text-banner-content-2 {
@@ -172,10 +172,10 @@
             }
           }
           .col-products-l {
-            padding-right: 7.5px !important;
+            padding-right: 7.5px;
           }
           .col-products-r {
-            padding-left: 7.5px !important;
+            padding-left: 7.5px;
           }
           .col-product-button {
             padding-bottom: 0px;
@@ -293,6 +293,9 @@
       img {
         display: none;
       }
+    }
+    .list-lorem{
+      display: none;
     }
     .panel-group {
       padding: 0 0 0 0;

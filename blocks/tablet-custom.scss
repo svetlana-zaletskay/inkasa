@@ -151,6 +151,15 @@
     }
   }
   .footer {
+    .text-after-sprites {
+      display: none;
+    }
+    .after-footer{
+      display: none;
+    }
+    .list-lorem{
+      display: none;
+    }
     .panel-group {
       padding: 0 0 0 0;
       margin: 3% 0 3% 0;
@@ -181,15 +190,6 @@
     }
   }
 }
-
-//.footer {
-//  display: table;
-//}
-//.panel-group {
-//  display: table-header-group;
-//}
-//.form-check-in {
-//  display: table-footer-group;
 
 
 
