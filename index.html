@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width ">
+    <meta name="viewport" content="width=device-width">
     <title>inkasa</title>
 
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300i,400,800" rel="stylesheet">
 
     <script src="js/jquery-3.1.1.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/inkasa.js"></script>
 </head>
@@ -31,6 +32,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                </div>
+                <div>
                     <div class="collapse navbar-collapse link-mobile-menu" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Link</a></li>
@@ -38,15 +41,22 @@
                         </ul>
                     </div>
                 </div>
-                <div class="conteiner-logo col-xs-7 col-sm-10 col-md-4">
+                <div class="conteiner-logo col-xs-7 col-sm-10 col-md-3">
                     <a href="#"><img class="logo-img" src="images/logo.png" alt="logo"></a>
                 </div>
-                <form action="#" class="search col-md-4">
-                    <img class="search-bracket-l" src="images/bracket-left.png" alt="">
-                    <input class="search-content" type="text" placeholder="digite aqui o que procura"/>
-                    <img class="search-img" src="images/searsch.png" alt="searsch">
-                    <img class="search-bracket-r" src="images/bracket-right.png" alt="">
-                </form>
+                <div class="search col-md-5">
+                    <div id="searchBlock">
+                        <div id="searchBlock2" class="search-block">
+                            <form action="#">
+                                <img class="search-bracket-l" src="images/bracket-left.png" alt="">
+                                <input id="search" class="search-content" type="text"
+                                       placeholder="digite aqui o que procura"/>
+                                <img class="search-img" src="images/searsch.png" alt="searsch">
+                                <img class="search-bracket-r" src="images/bracket-right.png" alt="">
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 <div class="my-score col-md-2">MINHA CONTA</div>
                 <div class="basket-home col-md-2">
                     <img class="el-1" src="images/basket.png"/>
@@ -153,7 +163,8 @@
                         </li>
                     </ul>
 
-                    <a class="link-3" data-toggle="dropdown" href="#"><span>acessórios</span><span style="color: #fff;">&#38</span><span>decoração</span></a>
+                    <a class="link-3" data-toggle="dropdown" href="#"><span>acessórios</span><span
+                            style="color: #fff;">&#38</span><span>decoração</span></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-col-1">
                             <ul class="dropdown-list">
@@ -251,13 +262,33 @@
 
         <div class="body">
             <div class="row">
-                <div class="banner-block">
-                    <div class="text-banner-content-1">
-                        <div class="text-banner-1">ambientação</div>
-                        <div class="text-banner-2">em casa</div>
+                <div class="inkasa-slick">
+                    <div class="banner-block">
+                        <div class="text-banner-content-1">
+                            <div class="text-banner-1">ambientação</div>
+                            <div class="text-banner-2">em casa</div>
+                        </div>
+                        <div class="text-banner-content-2">
+                            <div class="text-banner-3"><a href="#">ver mais</a></div>
+                        </div>
                     </div>
-                    <div class="text-banner-content-2">
-                        <div class="text-banner-3"><a href="#">ver mais</a></div>
+                    <div class="banner-block">
+                        <div class="text-banner-content-1">
+                            <div class="text-banner-1">ambientação</div>
+                            <div class="text-banner-2">em casa</div>
+                        </div>
+                        <div class="text-banner-content-2">
+                            <div class="text-banner-3"><a href="#">ver mais</a></div>
+                        </div>
+                    </div>
+                    <div class="banner-block">
+                        <div class="text-banner-content-1">
+                            <div class="text-banner-1">ambientação</div>
+                            <div class="text-banner-2">em casa</div>
+                        </div>
+                        <div class="text-banner-content-2">
+                            <div class="text-banner-3"><a href="#">ver mais</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="products col-sm-6 col-md-12">

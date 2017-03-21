@@ -43,6 +43,32 @@
       header .header-content .basket-home, header .header-content .my-score {
         display: none; }
 
+  body .row .slick-dotted ul.slick-dots {
+    bottom: 13px; }
+    body .row .slick-dotted ul.slick-dots li.slick-active {
+      background-color: #000;
+      height: 10px;
+      border-radius: 5px; }
+    body .row .slick-dotted ul.slick-dots li {
+      width: 10px;
+      margin-right: 0;
+      background-color: #f8c301;
+      height: 10px;
+      border-radius: 5px; }
+      body .row .slick-dotted ul.slick-dots li button {
+        border-radius: 5px;
+        width: 10px;
+        height: 10px;
+        margin-right: 0;
+        padding: 0 0 0 0;
+        opacity: 1; }
+      body .row .slick-dotted ul.slick-dots li button:before {
+        border-radius: 6px;
+        width: 10px;
+        height: 10px;
+        padding: 0 0 0 0;
+        content: '';
+        opacity: 1; }
   body .row .banner-block {
     background: url(../images/main-banner.png);
     background-size: cover;

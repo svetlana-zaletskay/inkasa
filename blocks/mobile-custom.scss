@@ -66,6 +66,41 @@
   }
   body {
     .row {
+      .slick-dotted {
+        ul.slick-dots {
+          bottom: 13px;
+          li.slick-active{
+            background-color: #000;
+            height: 10px;
+            border-radius: 5px;
+          }
+          li {
+            width: 10px;
+            margin-right: 0;
+            background-color: #f8c301;
+            height: 10px;
+            border-radius: 5px;
+
+            button {
+              border-radius: 5px;
+              width: 10px;
+              height: 10px;
+              margin-right: 0;
+              padding: 0 0 0 0;
+              opacity: 1;
+            }
+           button:before {
+              border-radius: 6px;
+              width: 10px;
+              height: 10px;
+              //margin-right: 0;
+              padding: 0 0 0 0;
+              content:'';
+              opacity: 1;
+            }
+          }
+        }
+      }
       .banner-block {
         background: url(../images/main-banner.png);
         background-size: cover;
@@ -293,7 +328,7 @@
         display: none;
       }
     }
-    .list-lorem{
+    .list-lorem {
       display: none;
     }
     .panel-group {

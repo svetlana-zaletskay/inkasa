@@ -53,7 +53,7 @@
       .search-basket-div {
         display: none;
       }
-      .basket-home:after{
+      .basket-home:after {
         background-image: url("/images/cherta.png");
       }
       .basket-home {
@@ -64,12 +64,12 @@
         width: 13.6%;
         margin-right: 0%;
         padding-left: 0;
-        .el-1{
+        .el-1 {
           position: absolute;
           top: 33%;
           left: 23%;
         }
-        .el-2{
+        .el-2 {
           position: absolute;
           top: 44%;
           right: 23%;
@@ -93,6 +93,11 @@
         display: block;
         //width: 24%;
         margin-left: 2%;
+        #searchBlock{
+          position: absolute;
+          right: 0px;
+          width: 50%;
+        }
       }
       .basket-elements {
         display: inline-block;
@@ -111,6 +116,12 @@
     .row {
       margin-left: 0%;
       margin-right: 0%;
+      .slick-dotted {
+        ul.slick-dots {
+          bottom: 16px;
+          right: 3%;
+        }
+      }
       .banner-block {
         background: url(../images/main-banner.png) no-repeat;
         min-height: 392px;
@@ -182,9 +193,11 @@
       }
     }
   }
+
   .footer:before {
     border-top: 1px solid black;
   }
+
   .footer {
     border-top: 1px solid black;
     margin-top: 30px;
@@ -246,6 +259,7 @@
       display: none;
     }
   }
+
 }
 
 @media (min-width: 1281px) {
@@ -287,7 +301,24 @@
               height: 290px;
             }
             .text-1, .text-2 {
-              right: 2%;
+              right: 0%;
+              line-height: 25px;
+            }
+            .text-1:before {
+              font-size: 37px;
+              top: -1px;
+              left: -8px;
+            }
+            .text-2:after {
+              font-size: 37px;
+              top: -1px;
+            }
+            .text-3 {
+              line-height: 27px;
+            }
+            .text-3:after {
+              font-size: 37px;
+              top: -1px;
             }
           }
         }

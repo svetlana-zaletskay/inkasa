@@ -1,10 +1,16 @@
 .header-content {
   position: relative; }
   .header-content .search-basket-div {
-    margin-left: -4%;
     text-align: right; }
     .header-content .search-basket-div .search-img-xs-sm {
       margin: 6% 8% 0 0; }
+  .header-content .search .search-block {
+    position: relative; }
+    .header-content .search .search-block #searchBlock {
+      float: right;
+      width: 50%; }
+      .header-content .search .search-block #searchBlock #searchBlock2 {
+        float: right; }
   .header-content .search .search-content {
     background-color: #f5f5f5;
     width: 100%;
@@ -25,7 +31,7 @@
   .header-content .search .search-bracket-r {
     position: absolute;
     top: 36.7%;
-    right: 4%; }
+    right: 0; }
   .header-content .basket-home {
     width: 24%;
     height: 79px;

@@ -1,13 +1,23 @@
 .header-content {
   position: relative;
   .search-basket-div {
-    margin-left: -4%;
+    //margin-left: -4%;
     text-align: right;
     .search-img-xs-sm {
       margin: 6% 8% 0 0;
     }
   }
   .search {
+    .search-block{
+      position: relative;
+      #searchBlock{
+        float: right;
+        width: 50%;
+        #searchBlock2{
+          float: right;
+        }
+      }
+    }
 
     .search-content {
       background-color: #f5f5f5;
@@ -32,7 +42,7 @@
     .search-bracket-r {
       position: absolute;
       top: 36.7%;
-      right: 4%;
+      right: 0;
     }
   }
   .basket-home{

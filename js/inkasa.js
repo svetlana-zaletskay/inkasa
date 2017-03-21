@@ -1,8 +1,23 @@
-$("#lok").css("border", "1px solid red");
+$(document).ready(function () {
+    $('.inkasa-slick').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
+
+    $("#search").focus(function () {
+        $('#searchBlock').animate({width: '95%'}, 500);
+    });
+
+    $("#search").blur(function () {
+        $('#searchBlock').animate({width: '50%',float:'right'}, 500);
+    });
+});
 
 
-function changeBaground(color) {
-   $(".header-content").css("background", color)
-}
+
+
 
 
