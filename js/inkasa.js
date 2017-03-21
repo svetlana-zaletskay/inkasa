@@ -6,6 +6,13 @@ $(document).ready(function () {
         slidesToShow: 1,
         adaptiveHeight: true
     });
+    $('.delivery-slick').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
 
     $("#search").focus(function () {
         $('#searchBlock').animate({width: '95%'}, 500);

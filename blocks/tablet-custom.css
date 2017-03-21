@@ -32,6 +32,10 @@
         display: none; }
       header .header-content .basket-home {
         display: none; }
+      header .header-content .navbar-collapse.collapse {
+        display: none !important; }
+      header .header-content .navbar-collapse.in {
+        display: block !important; }
 
   .search {
     display: none; }

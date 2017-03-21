@@ -49,6 +49,12 @@
       .basket-home {
         display: none;
       }
+      .navbar-collapse.collapse{
+        display: none !important;
+      }
+      .navbar-collapse.in{
+        display: block !important;
+      }
     }
   }
   .search {

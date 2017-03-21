@@ -54,7 +54,13 @@
         display: none;
       }
       .basket-home:after {
-        background-image: url("/images/cherta.png");
+        content: '';
+        width: 1px;
+        height: 50px;
+        background-color: #acacac;
+        position: absolute;
+        top: 21%;
+        left: 52%;
       }
       .basket-home {
         height: 79px;
@@ -64,6 +70,7 @@
         width: 13.6%;
         margin-right: 0%;
         padding-left: 0;
+        position: relative;
         .el-1 {
           position: absolute;
           top: 33%;
