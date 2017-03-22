@@ -1,3 +1,9 @@
+@import "slick/slick.css";
+@import "slick/slick-theme.css";
+
+@import "fonts/Arvo/stylesheet.css";
+@import "fonts/MerriweatherSans/stylesheet.css";
+
 @import "blocks/delivery.css";
 @import "blocks/wrapper.css";
 @import "blocks/header-content.css";
@@ -11,8 +17,3 @@
 @import "blocks/tablet-custom.css";
 @import "blocks/desktop-custom.css";
 @import "blocks/home.css";
-@import "slick/slick.css";
-@import "slick/slick-theme.css";
-
-@import "fonts/Arvo/stylesheet.css";
-@import "fonts/MerriweatherSans/stylesheet.css";

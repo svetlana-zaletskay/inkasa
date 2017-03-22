@@ -66,10 +66,16 @@
   }
   body {
     .row {
+      .inkasa-slick {
+        margin-bottom: 0%;
+      }
+      .slick-slider {
+          margin-bottom: 0% !important;
+        }
       .slick-dotted {
         ul.slick-dots {
           bottom: 13px;
-          li.slick-active{
+          li.slick-active {
             background-color: #000;
             height: 10px;
             border-radius: 5px;
@@ -80,7 +86,6 @@
             background-color: #f8c301;
             height: 10px;
             border-radius: 5px;
-
             button {
               border-radius: 5px;
               width: 10px;
@@ -89,13 +94,13 @@
               padding: 0 0 0 0;
               opacity: 1;
             }
-           button:before {
+            button:before {
               border-radius: 6px;
               width: 10px;
               height: 10px;
               //margin-right: 0;
               padding: 0 0 0 0;
-              content:'';
+              content: '';
               opacity: 1;
             }
           }
@@ -154,6 +159,9 @@
         }
       }
       .products {
+        .block-front {
+          display: none;
+        }
         .row {
           margin-top: 15px;
           .col-products {

@@ -17,7 +17,7 @@
         }
         .text-delivery:before {
           position: absolute;
-          top: 28%;
+          top: 20%;
           left: 38.3%;
         }
       }
@@ -123,11 +123,16 @@
     .row {
       margin-left: 0%;
       margin-right: 0%;
-      .slick-dotted {
+      .slick-dotted{
+        width: auto;
+        margin-bottom: 0%;
         ul.slick-dots {
           bottom: 16px;
-          right: 3%;
+          right: 2%;
         }
+      }
+      .inkasa-slick {
+        margin-bottom: 0%;
       }
       .banner-block {
         background: url(../images/main-banner.png) no-repeat;
@@ -154,6 +159,9 @@
       }
       .products {
         padding: 0 0 0 0;
+        .block-front{
+          display: block;
+        }
         .row {
           //margin: 30px -7.5px 0 -7.5px;
           margin: 30px -15px 0 0px;
@@ -282,7 +290,7 @@
       margin-left: 0%;
       margin-right: 0%;
       .products {
-        padding: 0 0 0 0;
+        padding: 0;
         .row {
           margin: 30px -15px 0 0px;
           .col-products {

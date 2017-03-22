@@ -43,6 +43,10 @@
       header .header-content .basket-home, header .header-content .my-score {
         display: none; }
 
+  body .row .inkasa-slick {
+    margin-bottom: 0%; }
+  body .row .slick-slider {
+    margin-bottom: 0% !important; }
   body .row .slick-dotted ul.slick-dots {
     bottom: 13px; }
     body .row .slick-dotted ul.slick-dots li.slick-active {
@@ -109,6 +113,8 @@
           vertical-align: top; }
       body .row .banner-block .text-banner-content-2 .text-banner-3:after {
         content: url("../images/b-l-w.png"); }
+  body .row .products .block-front {
+    display: none; }
   body .row .products .row {
     margin-top: 15px; }
     body .row .products .row .col-products {

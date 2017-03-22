@@ -43,6 +43,8 @@
   .basket-elements {
     display: none; }
 
+  body .row .inkasa-slick {
+    margin-bottom: 0%; }
   body .row .banner-block {
     min-height: 257px;
     text-align: right; }
